@@ -1,0 +1,7 @@
+# The tools in this repo read and write LF. Without this, a Windows checkout gets CRLF
+# working files and the next tool run rewrites all of them, so a one-line translation
+# change shows up as a whole-file diff.
+#
+# This governs THIS repo only. The addon repos keep their own conventions - Everything
+# Quests is CRLF, EQ Objective Tracker is LF - and build.py detects and preserves each.
+* text=auto eol=lf

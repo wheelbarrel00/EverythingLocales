@@ -1,0 +1,126 @@
+"""Gate the shared store and everything generated from it.
+
+    python check.py
+
+Exits non-zero on any of:
+
+  a store value that would raise inside string.format in that language
+  a store phrase no addon uses (scan.py retires those, so one here means it was
+    hand-added to the wrong file)
+  an override naming a phrase its addon does not use
+  a locale file on disk that does not match what build.py would write, which is how
+    a translation edited in an addon repo instead of the store shows up
+
+That last one is the reason this gate exists. The whole failure this repo was built
+to stop is a translation living somewhere the other addon cannot see it.
+"""
+import os
+import sys
+
+import addons
+import build
+import formatcheck
+import lualocale as lua
+
+
+def main():
+    fails = 0
+
+    live, per_addon = set(), {}
+    for addon in addons.ADDONS:
+        keys = set(lua.decode(k) for _s, k in
+                   lua.manifest_in(addons.manifest_path(addon)))
+        per_addon[addon] = keys
+        live |= keys
+    print('phrases in use: %d  (%s)'
+          % (len(live), ', '.join('%s %d' % (a, len(per_addon[a])) for a in per_addon)))
+
+    shared = set.intersection(*per_addon.values()) if len(per_addon) > 1 else set()
+    print('used by more than one addon: %d  '
+          '(check these read the same in both before rewording)' % len(shared))
+
+    for code, lang in addons.LANGUAGES:
+        sp = addons.store_path(code)
+        if not os.path.isfile(sp):
+            print('\n%s: MISSING %s' % (code, sp))
+            fails += 1
+            continue
+        store, srckeys, bad = lua.pairs_in(sp, warn=True)
+        for n, text in bad:
+            print('\n%s: store line %d unparsed, would be DROPPED: %s' % (code, n, text))
+            fails += 1
+
+        bad_format, notes = [], 0
+        for k, value in store.items():
+            key_src = srckeys[k]
+            f, n = formatcheck.check(key_src, value)
+            if f:
+                bad_format.append((key_src, value, f))
+            notes += 1 if n else 0
+
+        orphans = [k for k in store if k not in live]
+
+        covered = len([k for k in live if k in store])
+        print('\n== %s ==  %d of %d in use (%d%%), %d format NOTE(s)'
+              % (code, covered, len(live),
+                 round(100.0 * covered / len(live)) if live else 0, notes))
+        for a in per_addon:
+            got = len([k for k in per_addon[a] if k in store])
+            print('   %-5s %d / %d (%d%%)'
+                  % (a, got, len(per_addon[a]),
+                     round(100.0 * got / len(per_addon[a])) if per_addon[a] else 0))
+
+        for key_src, value, why in bad_format:
+            print('   FAIL %r' % key_src[:70])
+            print('        %r' % value[:90])
+            for w in why:
+                print('        -> %s' % w)
+        fails += len(bad_format)
+
+        if orphans:
+            print('   FAIL %d store phrase(s) no addon uses - run scan.py' % len(orphans))
+            for k in orphans[:8]:
+                print('        %r' % k.decode('utf-8', 'replace')[:70])
+            fails += len(orphans)
+
+        for addon in addons.ADDONS:
+            op = addons.override_path(addon, code)
+            if not os.path.isfile(op):
+                continue
+            over, _s, _b = lua.pairs_in(op)
+            stray = [k for k in over if k not in per_addon[addon]]
+            if stray:
+                print('   FAIL %s override names %d phrase(s) that addon does not use'
+                      % (addon, len(stray)))
+                for k in stray[:8]:
+                    print('        %r' % k.decode('utf-8', 'replace')[:70])
+                fails += len(stray)
+
+    print('\n== generated files on disk ==')
+    for code, lang in addons.LANGUAGES:
+        sp = addons.store_path(code)
+        if not os.path.isfile(sp):
+            continue
+        store, _s, _b = lua.pairs_in(sp)
+        for addon in addons.ADDONS:
+            op = addons.override_path(addon, code)
+            over = lua.pairs_in(op)[0] if os.path.isfile(op) else {}
+            path, text, _c, _t = build.build_one(addon, code, lang, store, over)
+            on_disk = lua.read(path) if os.path.isfile(path) else ''
+            if on_disk == text:
+                continue
+            same = build.key_value_pairs(on_disk) == build.key_value_pairs(text)
+            print('   %s %s: DRIFT - %s' % (addon, code,
+                  'layout only, run build.py' if same
+                  else 'CONTENT differs, a translation was edited outside the store'))
+            fails += 1
+
+    if fails:
+        print('\nFAIL: %d problem(s).' % fails)
+        return 1
+    print('\nOK - store is sound and every generated file matches it.')
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())
