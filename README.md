@@ -66,10 +66,10 @@ are generated from this one, so changes there are overwritten on the next build.
 
 | | French | Russian | Korean |
 |---|---|---|---|
-| Everything Quests | 100% | 100% | 98% |
-| EQ Objective Tracker | 68% | 68% | 68% |
+| Everything Quests | 100% | 100% | 100% |
+| EQ Objective Tracker | 67% | 67% | 98% |
 
-676 phrases in use across the family, 43 of them shared by both addons.
+683 phrases in use across the family, 52 of them shared by both addons.
 
 ## Credits
 
