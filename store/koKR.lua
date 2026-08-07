@@ -22,6 +22,13 @@
 
 local L = {}
 
+L["Bring back every entry you have hidden"] = "숨긴 항목 모두 되살리기"
+L["Click to copy the invite link."] = "클릭하면 초대 링크가 복사됩니다."
+L["Import your Everything Quests settings"] = "Everything Quests 설정 가져오기"
+L["Special thanks to %s for the many features, fixes, and reports that keep shaping EQ Objective Tracker."] = "EQ Objective Tracker를 계속 다듬어 주는 수많은 기능과 수정, 제보를 보내 주신 %s 님께 특별히 감사드립니다."
+L["Special thanks to %s for the many hours spent translating EQ Objective Tracker into French."] = "EQ Objective Tracker의 프랑스어 번역에 많은 시간을 쏟아 주신 %s 님께 특별히 감사드립니다."
+L["Special thanks to %s for the many hours spent translating EQ Objective Tracker into Korean."] = "EQ Objective Tracker의 한국어 번역에 많은 시간을 쏟아 주신 %s 님께 특별히 감사드립니다."
+L["Special thanks to %s for the many hours spent translating EQ Objective Tracker into Russian."] = "EQ Objective Tracker의 러시아어 번역에 많은 시간을 쏟아 주신 %s 님께 특별히 감사드립니다."
 L["\n|cffaaaaaaLast pruned: %s|r"] = "\n|cffaaaaaa마지막 정리: %s|r"
 L["   |cffaaaaaa(%.1f / hour)|r"] = "   |cffaaaaaa(시간당 %.1f)|r"
 L[" for the many features, fixes, and reports that keep shaping Everything Quests."] = " Everything Quests를 계속 다듬어 가는 많은 기능 제안과 수정, 제보를 해 주셔서 감사합니다."
