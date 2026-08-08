@@ -113,7 +113,6 @@ L["Breathing room between a card's edge and the text inside it. Larger values ma
 L["Built with feedback, reports, and ideas from the community — especially "] = "Создано при поддержке сообщества: отзывы, сообщения об ошибках и идеи - особенно "
 L["Busiest day: %s (%d quests)"] = "Самый активный день: %s (%d заданий)"
 L["By character"] = "По персонажам"
-L["By default the World Quests area shares space with your quest list and gets squeezed when you have a lot of quests. Turn this on to give it its own height, set by the slider below."] = "По умолчанию область локальных заданий делит место со списком заданий и сжимается, когда заданий много. Включите, чтобы задать ей собственную высоту с помощью ползунка ниже."
 L["by Wheelbarrel00"] = "от Wheelbarrel00"
 L["Cached: |cffffffff%d|r characters, |cffffffff%d|r waypoint locations\n|cffffffff%d|r chains across |cffffffff%d|r categories"] = "В кэше: |cffffffff%d|r персонаж(ей), |cffffffff%d|r точек пути\n|cffffffff%d|r цепочек в |cffffffff%d|r категориях"
 L["Calling"] = "Призыв"

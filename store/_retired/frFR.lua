@@ -12,5 +12,6 @@
 
 local L = {}
 
+L["By default the World Quests area shares space with your quest list and gets squeezed when you have a lot of quests. Turn this on to give it its own height, set by the slider below."] = "Par défaut, la zone des Expéditions partage l'espace avec votre liste de quêtes et se retrouve à l'étroit quand vous avez beaucoup de quêtes. Activez ceci pour lui donner sa propre hauteur, réglée par le curseur ci-dessous."
 
 return L

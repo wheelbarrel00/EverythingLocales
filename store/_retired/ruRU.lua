@@ -12,5 +12,6 @@
 
 local L = {}
 
+L["By default the World Quests area shares space with your quest list and gets squeezed when you have a lot of quests. Turn this on to give it its own height, set by the slider below."] = "По умолчанию область локальных заданий делит место со списком заданий и сжимается, когда заданий много. Включите, чтобы задать ей собственную высоту с помощью ползунка ниже."
 
 return L

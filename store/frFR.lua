@@ -113,7 +113,6 @@ L["Breathing room between a card's edge and the text inside it. Larger values ma
 L["Built with feedback, reports, and ideas from the community — especially "] = "Conçu grâce aux suggestions, rapports et idées de la communauté — en particulier "
 L["Busiest day: %s (%d quests)"] = "Jour le plus actif: %s (%d quêtes)"
 L["By character"] = "Par personnage"
-L["By default the World Quests area shares space with your quest list and gets squeezed when you have a lot of quests. Turn this on to give it its own height, set by the slider below."] = "Par défaut, la zone des Expéditions partage l'espace avec votre liste de quêtes et se retrouve à l'étroit quand vous avez beaucoup de quêtes. Activez ceci pour lui donner sa propre hauteur, réglée par le curseur ci-dessous."
 L["by Wheelbarrel00"] = "par Wheelbarrel00"
 L["Cached: |cffffffff%d|r characters, |cffffffff%d|r waypoint locations\n|cffffffff%d|r chains across |cffffffff%d|r categories"] = "En cache: |cffffffff%d|r personnages, |cffffffff%d|r points de passage\n|cffffffff%d|r suites de quêtes sur |cffffffff%d|r catégories"
 L["Calling"] = "Appel"
