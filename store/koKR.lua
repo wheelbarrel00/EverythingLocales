@@ -22,6 +22,8 @@
 
 local L = {}
 
+L["By default the World Quests area is capped to a share of the tracker, set by the slider below that. Turn this on to give it a fixed height in pixels instead."] = "기본값으로 전역 퀘스트 영역은 추적기의 일정 비율까지로 제한되며, 그 비율은 아래 슬라이더로 정합니다. 이 옵션을 켜면 대신 픽셀 단위의 고정 높이를 사용합니다."
+L["The most of the tracker the world quest area may take. It is capped here first and your quest list takes the space that is left, scrolling for whatever does not fit. Only used while Set a custom World Quests height is off."] = "전역 퀘스트 영역이 추적기에서 차지할 수 있는 최대 비율입니다. 먼저 여기서 제한되고 남은 공간을 퀘스트 목록이 차지하며, 넘치는 항목은 스크롤됩니다. 전역 퀘스트 높이 사용자 지정이 꺼져 있을 때만 사용됩니다."
 L["\n|cffaaaaaaLast pruned: %s|r"] = "\n|cffaaaaaa마지막 정리: %s|r"
 L["   |cffaaaaaa(%.1f / hour)|r"] = "   |cffaaaaaa(시간당 %.1f)|r"
 L[" for the many features, fixes, and reports that keep shaping Everything Quests."] = " Everything Quests를 계속 다듬어 가는 많은 기능 제안과 수정, 제보를 해 주셔서 감사합니다."
@@ -288,7 +290,7 @@ L["Header Bar 2"] = "헤더 막대 2"
 L["Header Color"] = "헤더 색상"
 L["Header Size Offset"] = "머리글 크기 보정"
 L["Header Spacing"] = "머리글 간격"
-L["Height in pixels for the world quest area. Only used while Set a custom World Quests height is on."] = "전역 퀘스트 영역의 높이(픽셀)입니다. 전역 퀘스트 높이 직접 지정이 켜져 있을 때만 사용됩니다."
+L["Height in pixels for the world quest area. Only used while Set a custom World Quests height is on."] = "전역 퀘스트 영역의 높이(픽셀)입니다. 전역 퀘스트 높이 사용자 지정이 켜져 있을 때만 사용됩니다."
 L["Hide scroll bar"] = "스크롤 막대 숨김"
 L["Hide scroll bar arrows"] = "스크롤 막대 화살표 숨김"
 L["Hide the navigation panel"] = "탐색 패널 숨김"
