@@ -1,26 +1,29 @@
 # Everything Locales
 
-Translations for the Everything Quests addon family, in one place.
+Translations for Wheelbarrel00's World of Warcraft addons, in one place.
 
 | Addon | What it is |
 |---|---|
 | [Everything Quests](https://github.com/wheelbarrel00/EverythingQuests) | Quest log, world map overlays, quest history and the Chain Guide |
 | [EQ Objective Tracker](https://github.com/wheelbarrel00/EQObjectiveTracker) | The objective tracker, also usable on its own |
+| [Cooldown Master](https://github.com/wheelbarrel00/CooldownMaster) | Timeline-style lane cooldown tracker |
 
-Both addons get their French, Russian and Korean from this repo. Nothing here is
-installed or downloaded by players - it generates the translation files that ship
-inside each addon.
+Every addon here gets its French, Russian, Korean and Simplified Chinese from this repo.
+Nothing here is installed or downloaded by players - it generates the translation files
+that ship inside each addon.
 
 ## Why one repo
 
-The two addons share phrases, and phrases move between them. When the tracker moved out
+The addons share phrases, and phrases move between them. When the tracker moved out
 of Everything Quests into EQ Objective Tracker, 224 translated phrases per language went
 with it - and every one of them was lost in the move, sitting unused in one addon while
 showing up as untranslated English in the other.
 
 Here, a translation is stored against its **English phrase** and nothing else. Which
 addon uses it is worked out when the files are built. So a phrase that moves between
-addons keeps its translation, and a phrase both addons use is translated once.
+addons keeps its translation, and a phrase more than one addon uses is translated once.
+Cooldown Master joined in August 2026 and arrived with 45 phrases already translated in
+every language, without anyone typing a word.
 
 ## Translating
 
@@ -64,12 +67,19 @@ are generated from this one, so changes there are overwritten on the next build.
 
 ## Current coverage
 
-| | French | Russian | Korean |
-|---|---|---|---|
-| Everything Quests | 100% | 100% | 100% |
-| EQ Objective Tracker | 100% | 100% | 99% |
+| | French | Russian | Korean | Simplified Chinese |
+|---|---|---|---|---|
+| Everything Quests | 440 / 440 | 440 / 440 | 355 / 440 | 384 / 440 |
+| EQ Objective Tracker | 380 / 387 | 380 / 387 | 380 / 387 | 380 / 387 |
+| Cooldown Master | 45 / 444 | 45 / 444 | 45 / 444 | 437 / 444 |
 
-683 phrases in use across the family, 52 of them shared by both addons.
+1173 phrases in use across the addons, 82 of them used by more than one.
+
+The seven the tracker is missing are the same seven in every language. Everything Quests
+is under active development, so its total moves and a language can read short for a
+while after a batch of new phrases lands. Cooldown Master is newly added, so French,
+Russian and Korean cover only the phrases it shares with the other two - it is the
+obvious place to start if you would like to help.
 
 ## Credits
 
@@ -78,6 +88,7 @@ are generated from this one, so changes there are overwritten on the next build.
 | French | Zox |
 | Russian | Malevi4 |
 | Korean | labrie75 |
+| Simplified Chinese | 失眠啤酒 |
 
 ## For maintainers
 

@@ -7,7 +7,7 @@ specifier COUNTS (so %s becoming %d passed) and then comparing the sequence of
 conversion types (which false-failed any correct positional reorder).
 
 WoW's string.format supports Blizzard's positional extension (%1$s, %2$d) so a
-translator can reorder arguments, and Russian and Korean genuinely need it. A value
+translator can reorder arguments, and Russian, Korean and Chinese genuinely need it. A value
 is therefore compared by ARGUMENT INDEX, never as a flat list.
 
   FAIL - raises at runtime in that language only:
@@ -16,7 +16,7 @@ is therefore compared by ARGUMENT INDEX, never as a flat list.
            a numeric conversion where the key passes a string
            positional and plain specifiers mixed in one string
   NOTE - the value uses fewer of the key's arguments than the key does. Legitimate:
-         Russian and Korean have no use for English's "%s" plural suffix.
+         Russian, Korean and Chinese have no use for English's "%s" plural suffix.
 """
 import re
 

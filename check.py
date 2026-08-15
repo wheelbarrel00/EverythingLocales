@@ -14,6 +14,7 @@ Exits non-zero on any of:
 That last one is the reason this gate exists. The whole failure this repo was built
 to stop is a translation living somewhere the other addon cannot see it.
 """
+import collections
 import os
 import sys
 
@@ -35,9 +36,14 @@ def main():
     print('phrases in use: %d  (%s)'
           % (len(live), ', '.join('%s %d' % (a, len(per_addon[a])) for a in per_addon)))
 
-    shared = set.intersection(*per_addon.values()) if len(per_addon) > 1 else set()
+    # phrases in EVERY addon is the wrong set once there are three - the homograph
+    # review wants anything two or more of them draw
+    seen = collections.Counter()
+    for keys in per_addon.values():
+        seen.update(keys)
+    shared = [k for k, n in seen.items() if n > 1]
     print('used by more than one addon: %d  '
-          '(check these read the same in both before rewording)' % len(shared))
+          '(check these read the same in each before rewording)' % len(shared))
 
     for code, lang in addons.LANGUAGES:
         sp = addons.store_path(code)
@@ -71,8 +77,8 @@ def main():
                      round(100.0 * got / len(per_addon[a])) if per_addon[a] else 0))
 
         for key_src, value, why in bad_format:
-            print('   FAIL %r' % key_src[:70])
-            print('        %r' % value[:90])
+            print('   FAIL %s' % ascii(key_src[:70]))
+            print('        %s' % ascii(value[:90]))
             for w in why:
                 print('        -> %s' % w)
         fails += len(bad_format)
@@ -80,7 +86,7 @@ def main():
         if orphans:
             print('   FAIL %d store phrase(s) no addon uses - run scan.py' % len(orphans))
             for k in orphans[:8]:
-                print('        %r' % k.decode('utf-8', 'replace')[:70])
+                print('        %s' % ascii(k.decode('utf-8', 'replace')[:70]))
             fails += len(orphans)
 
         for addon in addons.ADDONS:
@@ -93,7 +99,7 @@ def main():
                 print('   FAIL %s override names %d phrase(s) that addon does not use'
                       % (addon, len(stray)))
                 for k in stray[:8]:
-                    print('        %r' % k.decode('utf-8', 'replace')[:70])
+                    print('        %s' % ascii(k.decode('utf-8', 'replace')[:70]))
                 fails += len(stray)
 
     print('\n== generated files on disk ==')

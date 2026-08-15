@@ -16,6 +16,7 @@ LANGUAGES = [
     ('frFR', 'French'),
     ('ruRU', 'Russian'),
     ('koKR', 'Korean'),
+    ('zhCN', 'Simplified Chinese'),
 ]
 
 ADDONS = {
@@ -47,6 +48,22 @@ ADDONS = {
             'Options/Frame.lua',
         ],
         'skip': ('Libs/', 'Locales/'),
+        'skip_contains': (),
+        'eol': '\n',
+        'manifest_eol': '\n',
+    },
+    'CDM': {
+        'name': 'Cooldown Master',
+        'path': os.path.join(SIBLING, 'CooldownMaster'),
+        'section': '-- %s',
+        # One hand-rolled panel rather than a file per tab, so the order is just
+        # the panel first and the frames it draws after it.
+        'preferred': [
+            'UI/Options.lua', 'UI/Widgets.lua', 'UI/WhatsNew.lua',
+            'UI/Lanes.lua', 'UI/ReadyFrames.lua', 'UI/Bars.lua',
+        ],
+        # tools/ and docs/ are dev scripts, media/ has no Lua
+        'skip': ('Libs/', 'Locales/', 'tools/', 'docs/'),
         'skip_contains': (),
         'eol': '\n',
         'manifest_eol': '\n',
