@@ -20,6 +20,11 @@ ESCAPES = {'a': '\a', 'b': '\b', 'f': '\f', 'n': '\n', 'r': '\r',
 
 HEADER_END = 'local L = ns.L'
 
+# Lua's \ddd escape takes ASCII 0-9 only, and str.isdigit() is wider than that in two
+# directions: a superscript raises out of int(), and an Arabic-Indic digit converts, so
+# "\<U+0663>" would silently decode to byte 3 instead of a literal.
+DIGITS = '0123456789'
+
 
 def decode(s):
     """Lua short-string body -> the bytes Lua holds at runtime."""
@@ -37,9 +42,9 @@ def decode(s):
         if e in ESCAPES:
             out.append(ESCAPES[e].encode('utf-8'))
             i += 1
-        elif e.isdigit():
+        elif e in DIGITS:
             digits = ''
-            while i < n and s[i].isdigit() and len(digits) < 3:
+            while i < n and s[i] in DIGITS and len(digits) < 3:
                 digits += s[i]
                 i += 1
             out.append(bytes([int(digits) & 0xFF]))
