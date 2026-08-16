@@ -73,13 +73,17 @@ are generated from this one, so changes there are overwritten on the next build.
 | EQ Objective Tracker | 380 / 387 | 380 / 387 | 380 / 387 | 380 / 387 |
 | Cooldown Master | 45 / 444 | 45 / 444 | 45 / 444 | 437 / 444 |
 
-1173 phrases in use across the addons, 82 of them used by more than one.
+1173 phrases in use across the addons, 82 of them used by more than one. Measured
+2026-08-15; the addons are under active development, so run `check.py` for today's figure
+rather than trusting this table.
 
-The seven the tracker is missing are the same seven in every language. Everything Quests
-is under active development, so its total moves and a language can read short for a
-while after a batch of new phrases lands. Cooldown Master is newly added, so French,
-Russian and Korean cover only the phrases it shares with the other two - it is the
-obvious place to start if you would like to help.
+The seven the tracker is missing are the same seven in every language. Cooldown Master is
+newly added, so French, Russian and Korean cover only the phrases it shares with the other
+two - it is the obvious place to start if you would like to help.
+
+**Cooldown Master's Simplified Chinese is a machine draft and has not been checked by a
+native speaker.** It is marked here rather than quietly counted, and a review of it is
+worth more than new coverage elsewhere.
 
 ## Credits
 
@@ -88,12 +92,12 @@ obvious place to start if you would like to help.
 | French | Zox |
 | Russian | Malevi4 |
 | Korean | labrie75 |
-| Simplified Chinese | 失眠啤酒 |
+| Simplified Chinese | 失眠啤酒 (Everything Quests and the tracker) |
 
 ## For maintainers
 
 ```
-python scan.py --apply     # rebuild both manifests, sync the store from both addons
+python scan.py --apply     # rebuild every manifest, sync the store from every addon
 python build.py --apply    # write every addon's Locales/<lang>.lua from the store
 python check.py            # gate, must exit 0
 ```
