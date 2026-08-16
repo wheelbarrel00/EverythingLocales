@@ -58,9 +58,6 @@ def read(path):
     return io.open(path, encoding='utf-8', newline='').read()
 
 
-def eol_of(text, default='\n'):
-    return '\r\n' if '\r\n' in text else default
-
 
 def strip_comments(text):
     return '\n'.join(l for l in text.splitlines() if not l.lstrip().startswith('--'))
