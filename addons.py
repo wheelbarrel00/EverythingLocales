@@ -21,6 +21,7 @@ LANGUAGES = [
     ('zhTW', 'Traditional Chinese'),
 ]
 
+
 ADDONS = {
     'EQ': {
         'name': 'Everything Quests',
