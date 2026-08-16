@@ -38,7 +38,7 @@ ADDONS = {
         # repo-root translator worksheets are not source
         'skip': ('Libs/', 'Locales/'),
         'skip_contains': ('TRANSLATE-ME',),
-        'eol': '\r\n',
+        'eol': '\n',
         'manifest_eol': '\n',
     },
     'EQOT': {
