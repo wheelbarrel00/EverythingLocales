@@ -62,28 +62,30 @@ there reaches the game.
 Open a pull request against this repo with your changes to `store/<language>.lua`. You
 can edit the file directly on GitHub - no need to clone anything or install any tools.
 
-Please do not open translation PRs against the two addon repos. Their `Locales/` files
+Please do not open translation PRs against the three addon repos. Their `Locales/` files
 are generated from this one, so changes there are overwritten on the next build.
 
 ## Current coverage
 
-| | French | Russian | Korean | Simplified Chinese |
-|---|---|---|---|---|
-| Everything Quests | 440 / 440 | 440 / 440 | 355 / 440 | 384 / 440 |
-| EQ Objective Tracker | 380 / 387 | 380 / 387 | 380 / 387 | 380 / 387 |
-| Cooldown Master | 45 / 444 | 45 / 444 | 45 / 444 | 437 / 444 |
+| | French | Russian | Korean | Simplified Chinese | Traditional Chinese |
+|---|---|---|---|---|---|
+| Everything Quests | 440 / 458 | 440 / 458 | 355 / 458 | 384 / 458 | 65 / 458 |
+| EQ Objective Tracker | 380 / 389 | 380 / 389 | 380 / 389 | 381 / 389 | 385 / 389 |
+| Cooldown Master | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 |
 
-1173 phrases in use across the addons, 82 of them used by more than one. Measured
-2026-08-15; the addons are under active development, so run `check.py` for today's figure
+1208 phrases in use across the addons, 82 of them used by more than one. Measured
+2026-08-18; the addons are under active development, so run `check.py` for today's figure
 rather than trusting this table.
 
-The seven the tracker is missing are the same seven in every language. Cooldown Master is
-newly added, so French, Russian and Korean cover only the phrases it shares with the other
-two - it is the obvious place to start if you would like to help.
+The phrases the tracker is missing are the same ones in every language. Everything Quests
+is where the remaining gaps are, and Traditional Chinese there is the largest single one -
+it is the obvious place to start if you would like to help.
 
-**Cooldown Master's Simplified Chinese is a machine draft and has not been checked by a
-native speaker.** It is marked here rather than quietly counted, and a review of it is
-worth more than new coverage elsewhere.
+**Cooldown Master's Simplified and Traditional Chinese were written in-house, not by the
+translators credited below.** They are complete and internally consistent, and they have
+been reviewed against the English, but no native speaker has read them. Corrections to
+those are worth more than new coverage elsewhere. Twelve of the Traditional Chinese
+phrases are shared keys and now appear in Everything Quests too.
 
 ## Credits
 
@@ -93,6 +95,7 @@ worth more than new coverage elsewhere.
 | Russian | Malevi4 |
 | Korean | labrie75 |
 | Simplified Chinese | 失眠啤酒 (Everything Quests and the tracker) |
+| Traditional Chinese | BNS333 (Everything Quests and the tracker) |
 
 ## For maintainers
 
