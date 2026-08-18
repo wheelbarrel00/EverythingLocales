@@ -17,6 +17,7 @@ LANGUAGES = [
     ('ruRU', 'Russian'),
     ('koKR', 'Korean'),
     ('zhCN', 'Simplified Chinese'),
+    ('deDE', 'German'),
     ('zhTW', 'Traditional Chinese'),
 ]
 
@@ -36,7 +37,7 @@ ADDONS = {
         # repo-root translator worksheets are not source
         'skip': ('Libs/', 'Locales/'),
         'skip_contains': ('TRANSLATE-ME',),
-        'eol': '\r\n',
+        'eol': '\n',
         'manifest_eol': '\n',
     },
     'EQOT': {

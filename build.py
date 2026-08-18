@@ -65,8 +65,7 @@ def build_one(addon, code, lang, store, overrides):
         lines.append('L["%s"] = "%s"' % (src_key, value))
         count += 1
 
-    existing = lua.read(path) if os.path.isfile(path) else ''
-    eol = lua.eol_of(existing, cfg['eol'])
+    eol = cfg['eol']
     return path, eol.join(lines) + eol, count, len(manifest)
 
 
