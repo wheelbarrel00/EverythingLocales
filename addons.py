@@ -18,6 +18,7 @@ LANGUAGES = [
     ('koKR', 'Korean'),
     ('zhCN', 'Simplified Chinese'),
     ('deDE', 'German'),
+    ('zhTW', 'Traditional Chinese'),
 ]
 
 ADDONS = {

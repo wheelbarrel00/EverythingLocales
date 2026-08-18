@@ -17,6 +17,5 @@ L["Font for the Ready/25%/50%/75%/100% markers along this lane."] = "此轨道�
 L["My HP %"] = "我的生命值 %"
 L["My Power %"] = "我的资源 %"
 L["Position (%)"] = "位置（%）"
-L["Special thanks to %s for the many hours spent translating EQ Objective Tracker into Chinese."] = "特别感谢 %s，投入大量时间完成EQ Objective Tracker简体中文翻译。"
 
 return L

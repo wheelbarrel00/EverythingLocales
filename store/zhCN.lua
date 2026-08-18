@@ -904,6 +904,7 @@ L["Special thanks to %s for the many features, fixes, and reports that keep shap
 L["Special thanks to %s for the many hours spent translating EQ Objective Tracker into French."] = "特别感谢 %s，投入大量时间完成EQ Objective Tracker法语翻译。"
 L["Special thanks to %s for the many hours spent translating EQ Objective Tracker into Korean."] = "特别感谢 %s，投入大量时间完成EQ Objective Tracker韩语翻译。"
 L["Special thanks to %s for the many hours spent translating EQ Objective Tracker into Russian."] = "特别感谢 %s，投入大量时间完成EQ Objective Tracker俄语翻译。"
+L["Special thanks to %s for the many hours spent translating EQ Objective Tracker into Simplified Chinese."] = "特别感谢 %s，投入大量时间完成EQ Objective Tracker简体中文翻译。"
 L["Spell"] = "法术"
 L["Spell cast"] = "法术施放"
 L["Spell cast starts the timer when you cast the entered spell. On-use trinkets, potions and flasks all count - enter the spell the item casts. This is the reliable choice.\n\nAura gained starts it when you gain the entered buff. On retail, the game hides your buffs from addons while you are in combat, so a buff gained mid-fight cannot be seen and the timer will not start. Prefer Spell cast for anything you cast or use."] = "「法术施放」会在你施放所填法术时启动计时。使用类饰品、药水和合剂同样适用 - 请填写该物品所施放的法术。这是更可靠的选择。\n\n「获得光环」会在你获得所填增益时启动计时。在正式服，游戏会在战斗中对插件隐藏你的增益，因此战斗中获得的增益无法被识别，计时也不会启动。对于任何由你施放或使用的效果，请优先选择「法术施放」。"
