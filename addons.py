@@ -13,6 +13,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SIBLING = os.path.dirname(ROOT)
 
 LANGUAGES = [
+    ('deDE', 'German'),
     ('frFR', 'French'),
     ('ruRU', 'Russian'),
     ('koKR', 'Korean'),
