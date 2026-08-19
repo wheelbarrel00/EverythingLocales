@@ -8,7 +8,8 @@ Translations for Wheelbarrel00's World of Warcraft addons, in one place.
 | [EQ Objective Tracker](https://github.com/wheelbarrel00/EQObjectiveTracker) | The objective tracker, also usable on its own |
 | [Cooldown Master](https://github.com/wheelbarrel00/CooldownMaster) | Timeline-style lane cooldown tracker |
 
-Every addon here gets its French, Russian, Korean and Simplified Chinese from this repo.
+Every addon here gets its German, French, Russian, Korean, Simplified Chinese and
+Traditional Chinese from this repo.
 Nothing here is installed or downloaded by players - it generates the translation files
 that ship inside each addon.
 
@@ -67,19 +68,20 @@ are generated from this one, so changes there are overwritten on the next build.
 
 ## Current coverage
 
-| | French | Russian | Korean | Simplified Chinese | Traditional Chinese |
-|---|---|---|---|---|---|
-| Everything Quests | 440 / 458 | 440 / 458 | 355 / 458 | 384 / 458 | 65 / 458 |
-| EQ Objective Tracker | 380 / 389 | 380 / 389 | 380 / 389 | 381 / 389 | 385 / 389 |
-| Cooldown Master | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 |
+| | German | French | Russian | Korean | Simplified Chinese | Traditional Chinese |
+|---|---|---|---|---|---|---|
+| Everything Quests | 53 / 458 | 440 / 458 | 440 / 458 | 355 / 458 | 384 / 458 | 65 / 458 |
+| EQ Objective Tracker | 386 / 390 | 380 / 390 | 380 / 390 | 380 / 390 | 381 / 390 | 385 / 390 |
+| Cooldown Master | 33 / 466 | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 |
 
-1208 phrases in use across the addons, 82 of them used by more than one. Measured
-2026-08-18; the addons are under active development, so run `check.py` for today's figure
-rather than trusting this table.
+1216 phrases in use across the addons. Measured 2026-08-18; the addons are under active
+development, so run `check.py` for today's figure rather than trusting this table.
 
-The phrases the tracker is missing are the same ones in every language. Everything Quests
-is where the remaining gaps are, and Traditional Chinese there is the largest single one -
-it is the obvious place to start if you would like to help.
+The gaps differ by language, so there is no single list of what is missing. German is the
+most complete on the tracker and the least complete elsewhere, because it was written
+against the tracker's phrase list and the store matches on the English text. Everything
+Quests is where the largest gaps are, and German and Traditional Chinese there are the two
+biggest - either is a good place to start if you would like to help.
 
 **Cooldown Master's Simplified and Traditional Chinese were written in-house, not by the
 translators credited below.** They are complete and internally consistent, and they have
@@ -96,6 +98,7 @@ phrases are shared keys and now appear in Everything Quests too.
 | Korean | labrie75 |
 | Simplified Chinese | 失眠啤酒 (Everything Quests and the tracker) |
 | Traditional Chinese | BNS333 (Everything Quests and the tracker) |
+| German | Stonetwist |
 
 ## For maintainers
 
