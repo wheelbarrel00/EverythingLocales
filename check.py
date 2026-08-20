@@ -4,6 +4,8 @@
 
 Exits non-zero on any of:
 
+  a line the parser cannot read, which scan.py would silently DELETE rather than
+    retire, because it rewrites each file from exactly what pairs_in returns
   a store value that would raise inside string.format in that language
   a store phrase no addon uses (scan.py retires those, so one here means it was
     hand-added to the wrong file)
@@ -26,6 +28,31 @@ import lualocale as lua
 
 def main():
     fails = 0
+
+    # A line pairs_in cannot match is not a parse error anywhere - Lua still loads the
+    # file, and every other check here reads through pairs_in, so the phrase simply
+    # stops existing as far as this repo is concerned. scan.py then rewrites the file
+    # from what pairs_in returned and the translation is gone, with no retired copy.
+    # A backslash before a real newline is the shape that does it: valid Lua, invisible
+    # to a line-anchored parser.
+    print('== lines the parser can read ==')
+    unreadable = 0
+    for code, _lang in addons.LANGUAGES:
+        paths = [addons.store_path(code), addons.retired_path(code)]
+        for addon in addons.ADDONS:
+            paths.append(addons.override_path(addon, code))
+            paths.append(addons.locale_path(addon, code))
+        for path in paths:
+            if not os.path.isfile(path):
+                continue
+            _v, _s, bad = lua.pairs_in(path, warn=True)
+            for n, text in bad:
+                print('   FAIL %s line %d unreadable, scan.py would DROP it: %s'
+                      % (os.path.relpath(path, addons.ROOT), n, text))
+                unreadable += 1
+    fails += unreadable
+    print('   %s' % ('%d unreadable line(s)' % unreadable if unreadable
+                     else 'every L[...] line parses in every store, override and locale file'))
 
     live, per_addon = set(), {}
     for addon in addons.ADDONS:
