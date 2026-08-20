@@ -13,5 +13,7 @@
 local L = {}
 
 L["Hides Questie's tracker frame while EQ Objective Tracker is running. Questie's own settings and tracked quests are not touched."] = "Blendet den Tracker von Questie aus, während der EQ Objective Tracker aktiv ist. Die eigenen Einstellungen und verfolgten Quests von Questie werden nicht verändert."
+L["Maximum Height (% of tracker)"] = "Maximale Höhe (% des Trackers)"
+L["Turns all six category filters back on and clears the current-zone filter. Nothing else on this tab is changed."] = "Aktiviert alle sechs Kategoriefilter wieder und deaktiviert den Filter für das aktuelle Gebiet. Andere Einstellungen auf diesem Tab werden nicht geändert."
 
 return L

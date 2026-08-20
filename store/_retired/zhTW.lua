@@ -12,5 +12,7 @@
 
 local L = {}
 
+L["Maximum Height (% of tracker)"] = "最大高度（佔追蹤器百分比）"
+L["Turns all six category filters back on and clears the current-zone filter. Nothing else on this tab is changed."] = "重新開啟全部6項分類篩選，清除當前區域篩選。本標簽頁其餘選項保持不變。"
 
 return L
