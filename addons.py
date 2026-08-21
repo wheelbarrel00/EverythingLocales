@@ -70,6 +70,31 @@ ADDONS = {
         'eol': '\n',
         'manifest_eol': '\n',
     },
+    'ED': {
+        'name': 'Everything Delves',
+        'path': os.path.join(SIBLING, 'EverythingDelves'),
+        'section': '-- %s',
+        # The tab order the player sees, so the worklist reads top-to-bottom.
+        'preferred': [
+            'UI/MainFrame.lua',
+            'UI/TabDelveLocations.lua',
+            'UI/TabCurrentBountiful.lua',
+            'UI/TabTierGuide.lua',
+            'UI/TabNullaeus.lua',
+            'UI/TabShardTracker.lua',
+            'UI/TabDelveHistory.lua',
+            'UI/TabDelversCall.lua',
+            'UI/TabRoster.lua',
+            'UI/TabOptions.lua',
+            'UI/TabProfiles.lua',
+            'UI/TabAbout.lua',
+        ],
+        # docs/ is gitignored dev notes and holds no shipped Lua
+        'skip': ('Libs/', 'Locales/', 'docs/'),
+        'skip_contains': (),
+        'eol': '\n',
+        'manifest_eol': '\n',
+    },
 }
 
 

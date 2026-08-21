@@ -7,6 +7,7 @@ Translations for Wheelbarrel00's World of Warcraft addons, in one place.
 | [Everything Quests](https://github.com/wheelbarrel00/EverythingQuests) | Quest log, world map overlays, quest history and the Chain Guide |
 | [EQ Objective Tracker](https://github.com/wheelbarrel00/EQObjectiveTracker) | The objective tracker, also usable on its own |
 | [Cooldown Master](https://github.com/wheelbarrel00/CooldownMaster) | Timeline-style lane cooldown tracker |
+| [Everything Delves](https://github.com/wheelbarrel00/EverythingDelves) | Delve companion - locations, tiers, bosses, run history |
 
 Every addon here gets its German, French, Russian, Korean, Simplified Chinese and
 Traditional Chinese from this repo.
@@ -70,18 +71,22 @@ are generated from this one, so changes there are overwritten on the next build.
 
 | | German | French | Russian | Korean | Simplified Chinese | Traditional Chinese |
 |---|---|---|---|---|---|---|
-| Everything Quests | 53 / 458 | 440 / 458 | 440 / 458 | 355 / 458 | 384 / 458 | 65 / 458 |
-| EQ Objective Tracker | 386 / 390 | 380 / 390 | 380 / 390 | 380 / 390 | 381 / 390 | 385 / 390 |
-| Cooldown Master | 33 / 466 | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 |
+| Everything Quests | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 |
+| EQ Objective Tracker | 395 / 395 | 395 / 395 | 395 / 395 | 395 / 395 | 395 / 395 | 395 / 395 |
+| Cooldown Master | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 |
+| Everything Delves | 42 / 752 | 42 / 752 | 42 / 752 | 42 / 752 | 42 / 752 | 42 / 752 |
 
-1216 phrases in use across the addons. Measured 2026-08-18; the addons are under active
+1932 phrases in use across the addons. Measured 2026-08-20; the addons are under active
 development, so run `check.py` for today's figure rather than trusting this table.
 
-The gaps differ by language, so there is no single list of what is missing. German is the
-most complete on the tracker and the least complete elsewhere, because it was written
-against the tracker's phrase list and the store matches on the English text. Everything
-Quests is where the largest gaps are, and German and Traditional Chinese there are the two
-biggest - either is a good place to start if you would like to help.
+The three older addons are complete in every language. **Everything Delves joined in August
+2026 and is where all the remaining work is** - it arrived with 42 phrases already translated,
+purely from what it shares with the others, and the other 710 have never been touched. Any
+language is a good place to start, and every one of them needs the same 710 phrases.
+
+Delve, boss, zone, story and achievement names are deliberately absent from the worklist. The
+addon matches them against the game's own localized strings, so they must stay English in the
+source - the client already shows them in your language.
 
 **Cooldown Master's Simplified and Traditional Chinese were written in-house, not by the
 translators credited below.** They are complete and internally consistent, and they have
