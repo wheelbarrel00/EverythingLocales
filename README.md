@@ -72,27 +72,32 @@ are generated from this one, so changes there are overwritten on the next build.
 | | German | French | Russian | Korean | Simplified Chinese | Traditional Chinese |
 |---|---|---|---|---|---|---|
 | Everything Quests | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 | 459 / 459 |
-| EQ Objective Tracker | 395 / 395 | 395 / 395 | 395 / 395 | 395 / 395 | 395 / 395 | 395 / 395 |
+| EQ Objective Tracker | 398 / 400 | 398 / 400 | 398 / 400 | 398 / 400 | 398 / 400 | 398 / 400 |
 | Cooldown Master | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 | 466 / 466 |
-| Everything Delves | 42 / 752 | 42 / 752 | 42 / 752 | 42 / 752 | 42 / 752 | 42 / 752 |
+| Everything Delves | 749 / 749 | 749 / 749 | 749 / 749 | 749 / 749 | 749 / 749 | 749 / 749 |
 
-1932 phrases in use across the addons. Measured 2026-08-20; the addons are under active
+1934 phrases in use across the addons. Measured 2026-08-21; the addons are under active
 development, so run `check.py` for today's figure rather than trusting this table.
 
-The three older addons are complete in every language. **Everything Delves joined in August
-2026 and is where all the remaining work is** - it arrived with 42 phrases already translated,
-purely from what it shares with the others, and the other 710 have never been touched. Any
-language is a good place to start, and every one of them needs the same 710 phrases.
+Every addon is now complete in every language, bar two phrases EQ Objective Tracker added
+while this table was being written.
 
 Delve, boss, zone, story and achievement names are deliberately absent from the worklist. The
 addon matches them against the game's own localized strings, so they must stay English in the
 source - the client already shows them in your language.
 
-**Cooldown Master's Simplified and Traditional Chinese were written in-house, not by the
-translators credited below.** They are complete and internally consistent, and they have
-been reviewed against the English, but no native speaker has read them. Corrections to
-those are worth more than new coverage elsewhere. Twelve of the Traditional Chinese
+**Some of this was written in-house, not by the translators credited below.** Cooldown
+Master's Simplified and Traditional Chinese, and the 708 phrases that completed Everything
+Delves in all six languages in August 2026, were written from the wording each translator
+had already established, with their permission. They are complete, internally consistent
+and reviewed against the English, but no native speaker has read them. **Corrections to
+those are worth more than new coverage anywhere else.** Twelve of the Traditional Chinese
 phrases are shared keys and now appear in Everything Quests too.
+
+Everything Delves is the place to look first: it is the newest addon, it carries by far the
+most prose (boss tactics, delve routes, the Nemesis fight), and its whole vocabulary -
+Delve, Bountiful, Coffer Key Shard, Undercoin, Gilded Stash, Crest - was set in that one
+pass. Getting those words right fixes hundreds of phrases at once.
 
 ## Credits
 
