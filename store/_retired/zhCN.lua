@@ -14,6 +14,7 @@ local L = {}
 
 L[" for the many hours spent translating Everything Quests into Chinese."] = "，投入大量时间将 Everything Quests 翻译为简体中文。"
 L["Font for the Ready/25%/50%/75%/100% markers along this lane."] = "此轨道上「就绪」/25%/50%/75%/100% 刻度标记所用的字体。"
+L["for WoW Midnight (12.0.x)"] = "适用于魔兽世界午夜版本（12.0.x）"
 L["Maximum Height (% of tracker)"] = "最大高度（占追踪器百分比）"
 L["My HP %"] = "我的生命值 %"
 L["My Power %"] = "我的资源 %"
