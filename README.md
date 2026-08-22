@@ -125,6 +125,10 @@ specifiers by argument index, catches phrases no addon uses, and reports drift -
 locale file that no longer matches what the store would produce, which is how a
 translation edited in the wrong repo shows up.
 
+`overrides/<ADDON>/<lang>.lua` beats the store for one addon only, for the rare phrase
+that means different things in different addons. Two are in use - see
+`overrides/README.md`.
+
 Each addon keeps its own `Locales/enUS.lua` manifest and its own gates, and passes them
 on a lone checkout. This repo is a build-time input, never a runtime or CI dependency.
 

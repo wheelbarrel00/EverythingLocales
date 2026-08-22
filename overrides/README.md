@@ -42,4 +42,20 @@ An override is the last resort, not the first move. Better, in order:
   `Daily` and `Weekly` are deliberately not overridden for this reason.
 - `check.py` fails on an override naming a phrase its addon does not use.
 
-Empty today, and that is the goal.
+## In use today
+
+`overrides/ED/{ruRU,koKR,zhCN,zhTW}.lua` - two keys, both of which shipped wrong in
+Everything Delves v1.28.0 and were fixed in v1.29.0:
+
+- `L["Title"]` - EQ Objective Tracker offers it as a sort order meaning the quest's own
+  name, so Russian, Korean and both Chinese chose the word for the heading of a document.
+  Everything Delves uses it for a PLAYER TITLE reward, where that word is wrong.
+- `L["Gold"]` - Everything Quests uses it for quest money, beside a coin icon. Everything
+  Delves uses it for an accent colour, in a list whose other entries are Red, Purple and
+  Dark Blue. Four languages returned the currency.
+
+German and French need neither file: their word for each carries both senses. Note the
+lowercase `L["gold"]` is a separate key and was always the colour, which is what made the
+collision easy to confirm.
+
+Two files today. Fewer is better.
