@@ -380,6 +380,7 @@ L["Chat Alert When New Bountiful Delves Rotate In"] = "새 풍요로운 구렁�
 L["Chat link"] = "채팅 링크"
 L["Chests:"] = "상자:"
 L["Choose one:"] = "하나 선택:"
+L["Class Color"] = "직업 색상"
 L["Class Colors"] = "직업 색상"
 L["Class quest"] = "직업 퀘스트"
 L["Classes: %s"] = "직업: %s"

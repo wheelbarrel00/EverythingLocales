@@ -380,6 +380,7 @@ L["Chat Alert When New Bountiful Delves Rotate In"] = "丰裕地下堡轮换时�
 L["Chat link"] = "聊天链接"
 L["Chests:"] = "宝箱："
 L["Choose one:"] = "选择奖励："
+L["Class Color"] = "职业颜色"
 L["Class Colors"] = "职业颜色"
 L["Class quest"] = "职业任务"
 L["Classes: %s"] = "职业：%s"

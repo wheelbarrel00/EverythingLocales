@@ -380,6 +380,7 @@ L["Chat Alert When New Bountiful Delves Rotate In"] = "Chatmeldung, wenn neue ü
 L["Chat link"] = "Chat-Link"
 L["Chests:"] = "Truhen:"
 L["Choose one:"] = "Wähle eine Option:"
+L["Class Color"] = "Klassenfarbe"
 L["Class Colors"] = "Klassenfarben"
 L["Class quest"] = "Klassenquest"
 L["Classes: %s"] = "Klassen: %s"
