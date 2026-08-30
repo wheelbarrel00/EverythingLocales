@@ -25,6 +25,16 @@ import build
 import formatcheck
 import lualocale as lua
 
+# A Windows console hands Python a cp1252 stdout, which raises UnicodeEncodeError on the
+# first Cyrillic or CJK character. The unparsed-line reports below print a locale file's
+# RAW source text, so the one defect class this gate exists to name is the one that would
+# kill it with a traceback instead. Widen the stream rather than ascii() the reports, which
+# would render the offending line unreadable.
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 
 def main():
     fails = 0

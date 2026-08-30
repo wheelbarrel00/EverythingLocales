@@ -27,6 +27,15 @@ import sys
 import addons
 import lualocale as lua
 
+# A Windows console hands Python a cp1252 stdout, which raises UnicodeEncodeError on the
+# first Cyrillic or CJK character. Nothing here prints a translation today - the reports
+# below print KEYS, which are English by convention and by no gate - so this is insurance,
+# and it keeps the three tools behaving the same way on the same console.
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 FALLBACK_HEADER = '''-- Locales/%(code)s.lua
 -- %(lang)s (%(code)s) translations for %(addon)s.
 --

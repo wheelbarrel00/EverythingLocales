@@ -26,6 +26,16 @@ import glob
 import addons
 import lualocale as lua
 
+# The conflict report below prints two translations side by side, and a Windows console
+# hands Python a cp1252 stdout - which raises UnicodeEncodeError on the first Cyrillic or
+# CJK character and kills the run PART WAY THROUGH THE WRITES. check.py wraps its phrase
+# reports in ascii() against the same hazard, but that renders a translation unreadable and
+# reading the two side by side is the whole point here. So widen the stream instead.
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 MANIFEST_FOOTER = [
     '-- Convert the `true` sentinels to their key (the self-keyed English default).',
     'for k, v in pairs(L) do if v == true then L[k] = k end end',
