@@ -13,6 +13,7 @@
 local L = {}
 
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "Ein Bildschirmpanel in einer Tiefe, das die Geschichtsvariante und ihre Wertung, die empfohlenen Kuriositäten für deine Rolle, deinen Laufzeit-Timer und deine Todeszahl zeigt."
+L["Draws a filled bar for objectives that report a percentage or a running total, the way the default tracker does, instead of a plain line of text. Applies to quests, World Quests, achievements and scenario objectives."] = "Zeichnet für Ziele, die einen Prozentwert oder einen laufenden Zähler melden, einen gefüllten Balken statt einer reinen Textzeile - so wie der Standardtracker. Gilt für Quests, Weltquests, Erfolge und Szenarioziele."
 L["for WoW Midnight (12.0.x)"] = "für WoW Midnight (12.0.x)"
 L["Frosthearth Venom \226\128\148 cuts enemy attack and cast speed by 20 percent, which buys time on both Soul Extinction and the Void Toxin dispel."] = "Frosthearth Venom — senkt Angriffs- und Zaubertempo der Gegner um 20 Prozent, was dir bei Soul Extinction wie beim Entfernen von Void Toxin Zeit verschafft."
 L["Hides Questie's tracker frame while EQ Objective Tracker is running. Questie's own settings and tracked quests are not touched."] = "Blendet den Tracker von Questie aus, während der EQ Objective Tracker aktiv ist. Die eigenen Einstellungen und verfolgten Quests von Questie werden nicht verändert."

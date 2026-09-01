@@ -13,6 +13,7 @@
 local L = {}
 
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "在探究中的畫面面板，顯示劇情變體及其評級、適合你職責的建議珍奇物品、計時器和死亡次數。"
+L["Draws a filled bar for objectives that report a percentage or a running total, the way the default tracker does, instead of a plain line of text. Applies to quests, World Quests, achievements and scenario objectives."] = "對於會給出百分比或累計數值的目標，像預設追蹤器那樣繪製一條填滿的進度條，而不是單純的一行文字。適用於任務、世界任務、成就和場景戰目標。"
 L["for WoW Midnight (12.0.x)"] = "適用於魔獸世界午夜版本（12.0.x）"
 L["Frosthearth Venom \226\128\148 cuts enemy attack and cast speed by 20 percent, which buys time on both Soul Extinction and the Void Toxin dispel."] = "Frosthearth Venom — 使敵人的攻擊與施法速度降低 20％，為 Soul Extinction 和 Void Toxin 的驅散都爭取到時間。"
 L["Marks every quest giver who has something for you but is not in your quest log yet, with a gold ring around the exclamation mark so it reads apart from the quests you are already carrying. One marker covers a whole quest giver, and hovering it lists everything that giver offers. Quests are filtered by your level, race, class and the quests you have already finished. Holiday quests are left out, because nothing in the data says whether the holiday is running."] = "給尚未接取的任務NPC感嘆號新增金色外圈標記；一個標記對應整個NPC，滑鼠懸浮顯示全部可接任務。按等級、種族、職業、已完成任務過濾；節日任務不會標記，插件無法判斷節日是否開啟。"

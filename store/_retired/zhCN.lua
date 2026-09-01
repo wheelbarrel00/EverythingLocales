@@ -14,6 +14,7 @@ local L = {}
 
 L[" for the many hours spent translating Everything Quests into Chinese."] = "，投入大量时间将 Everything Quests 翻译为简体中文。"
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "在地下堡中的屏幕面板，显示剧情变体及其评级、适合你职责的推荐珍奇物品、计时器和死亡次数。"
+L["Draws a filled bar for objectives that report a percentage or a running total, the way the default tracker does, instead of a plain line of text. Applies to quests, World Quests, achievements and scenario objectives."] = "对于会给出百分比或累计数值的目标，像默认追踪器那样绘制一条填充的进度条，而不是单纯的一行文字。适用于任务、世界任务、成就和场景战目标。"
 L["Font for the Ready/25%/50%/75%/100% markers along this lane."] = "此轨道上「就绪」/25%/50%/75%/100% 刻度标记所用的字体。"
 L["for WoW Midnight (12.0.x)"] = "适用于魔兽世界午夜版本（12.0.x）"
 L["Frosthearth Venom \226\128\148 cuts enemy attack and cast speed by 20 percent, which buys time on both Soul Extinction and the Void Toxin dispel."] = "Frosthearth Venom — 使敌人的攻击与施法速度降低 20％，为 Soul Extinction 和 Void Toxin 的驱散都争取到时间。"
