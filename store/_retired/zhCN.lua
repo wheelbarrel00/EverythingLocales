@@ -13,7 +13,9 @@
 local L = {}
 
 L[" for the many hours spent translating Everything Quests into Chinese."] = "，投入大量时间将 Everything Quests 翻译为简体中文。"
+L["%d hidden entries restored."] = "%d 条隐藏记录已恢复。"
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "在地下堡中的屏幕面板，显示剧情变体及其评级、适合你职责的推荐珍奇物品、计时器和死亡次数。"
+L["Bring back every entry you have hidden"] = "恢复所有被隐藏的记录"
 L["Draws a filled bar for objectives that report a percentage or a running total, the way the default tracker does, instead of a plain line of text. Applies to quests, World Quests, achievements and scenario objectives."] = "对于会给出百分比或累计数值的目标，像默认追踪器那样绘制一条填充的进度条，而不是单纯的一行文字。适用于任务、世界任务、成就和场景战目标。"
 L["Font for the Ready/25%/50%/75%/100% markers along this lane."] = "此轨道上「就绪」/25%/50%/75%/100% 刻度标记所用的字体。"
 L["for WoW Midnight (12.0.x)"] = "适用于魔兽世界午夜版本（12.0.x）"
@@ -22,7 +24,9 @@ L["Marks every quest giver who has something for you but is not in your quest lo
 L["Maximum Height (% of tracker)"] = "最大高度（占追踪器百分比）"
 L["My HP %"] = "我的生命值 %"
 L["My Power %"] = "我的资源 %"
+L["nothing is hidden."] = "没有隐藏项目。"
 L["Position (%)"] = "位置（%）"
+L["Restores every setting on every tab to its default and reloads the interface. This also clears the Options Window Scale, which every character shares, and this character's collapsed sections and individually hidden entries."] = "全部标签页恢复默认并重载界面。同时重置全角色共享的选项窗口缩放，以及本角色折叠板块、单独隐藏条目。"
 L["Season 2 also gives her a Poison slot. This popup does not cover it yet - the Nemesis tab already recommends one for Azta'rec."] = "第 2 赛季还给了她一个毒药槽。这个弹窗暂时还不涵盖它 - 死敌页面已经为 Azta'rec 推荐了一种。"
 L["Three of the six unlock from the quest \"%s\"."] = "六种中有三种通过任务 \"%s\" 解锁。"
 L["Turns all six category filters back on and clears the current-zone filter. Nothing else on this tab is changed."] = "重新开启全部6项分类筛选，清除当前区域筛选。本标签页其余选项保持不变。"
