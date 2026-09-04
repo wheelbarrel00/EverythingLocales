@@ -14,6 +14,7 @@ local L = {}
 
 L["%d hidden entries restored."] = "%d ausgeblendete Einträge wiederhergestellt."
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "Ein Bildschirmpanel in einer Tiefe, das die Geschichtsvariante und ihre Wertung, die empfohlenen Kuriositäten für deine Rolle, deinen Laufzeit-Timer und deine Todeszahl zeigt."
+L["Bonus Spoils: Nemesis Strongbox packs + the Sanctified Banner — the bonus loot to grab before the boss."] = "Bonusbeute: Pakete der Nemesis-Truhe + das Sanctified Banner — die Extrabeute, die du vor dem Boss holen solltest."
 L["Bring back every entry you have hidden"] = "Alle ausgeblendeten Einträge wieder einblenden"
 L["Draws a filled bar for objectives that report a percentage or a running total, the way the default tracker does, instead of a plain line of text. Applies to quests, World Quests, achievements and scenario objectives."] = "Zeichnet für Ziele, die einen Prozentwert oder einen laufenden Zähler melden, einen gefüllten Balken statt einer reinen Textzeile - so wie der Standardtracker. Gilt für Quests, Weltquests, Erfolge und Szenarioziele."
 L["for WoW Midnight (12.0.x)"] = "für WoW Midnight (12.0.x)"
@@ -22,9 +23,17 @@ L["Hides Questie's tracker frame while EQ Objective Tracker is running. Questie'
 L["Marks every quest giver who has something for you but is not in your quest log yet, with a gold ring around the exclamation mark so it reads apart from the quests you are already carrying. One marker covers a whole quest giver, and hovering it lists everything that giver offers. Quests are filtered by your level, race, class and the quests you have already finished. Holiday quests are left out, because nothing in the data says whether the holiday is running."] = "Markiert jeden Questgeber, der etwas für dich hat, das noch nicht in deinem Questlog steht, mit einem goldenen Ring um das Ausrufezeichen, damit er sich von deinen laufenden Quests abhebt. Eine Markierung steht für einen ganzen Questgeber, und wenn du mit der Maus darüberfährst, werden alle seine Quests aufgelistet. Gefiltert wird nach deiner Stufe, Volk, Klasse und den Quests, die du bereits abgeschlossen hast. Feiertagsquests bleiben außen vor, weil aus den Daten nicht hervorgeht, ob der Feiertag gerade läuft."
 L["Maximum Height (% of tracker)"] = "Maximale Höhe (% des Trackers)"
 L["nothing is hidden."] = "Nichts ist ausgeblendet."
+L["Restore every option to its default value."] = "Jede Option auf ihren Standardwert zurücksetzen."
 L["Restores every setting on every tab to its default and reloads the interface. This also clears the Options Window Scale, which every character shares, and this character's collapsed sections and individually hidden entries."] = "Setzt alle Einstellungen auf jedem Tab auf ihre Standardwerte zurück und lädt die Benutzeroberfläche neu. Dadurch wird auch die Skalierung des Optionsfensters zurückgesetzt, die von allen Charakteren gemeinsam verwendet wird, sowie die eingeklappten Abschnitte und individuell ausgeblendeten Einträge dieses Charakters."
+L["Sanctified Banner - find it for bonus loot"] = "Sanctified Banner - finde es für Bonusbeute"
+L["Sanctified Banner - Grand Spoils earned!"] = "Sanctified Banner - große Beute erhalten!"
+L["Sanctified Banner - kill the Voidfused Rager!"] = "Sanctified Banner - töte den Voidfused Rager!"
+L["Sanctified Banner found - bonus Spoils secured"] = "Sanctified Banner gefunden - Bonusbeute gesichert"
 L["Season 2 also gives her a Poison slot. This popup does not cover it yet - the Nemesis tab already recommends one for Azta'rec."] = "Saison 2 gibt ihr außerdem einen Giftplatz. Dieses Fenster deckt ihn noch nicht ab - der Nemesis-Reiter empfiehlt dafür bereits eines für Azta'rec."
+L["The most of this crest you're allowed to earn this season - the seasonal earning cap."] = "Wie viele dieser Wappen du diese Saison höchstens verdienen darfst - das Saisonlimit."
+L["The seasonal cap on this crest - how many you can earn for the lower crests, and how many you can hold at once for the higher ones."] = "Das Saisonlimit für dieses Wappen - bei den niedrigeren Wappen, wie viele du verdienen kannst, bei den höheren, wie viele du gleichzeitig besitzen kannst."
 L["Three of the six unlock from the quest \"%s\"."] = "Drei der sechs schaltest du über die Quest \"%s\" frei."
 L["Turns all six category filters back on and clears the current-zone filter. Nothing else on this tab is changed."] = "Aktiviert alle sechs Kategoriefilter wieder und deaktiviert den Filter für das aktuelle Gebiet. Andere Einstellungen auf diesem Tab werden nicht geändert."
+L["While inside a delve, tracks the two bonus-chest objectives - Nemesis Strongbox packs and the Sanctified Banner - so you know you've grabbed the extra loot before pulling the boss."] = "Verfolgt in einer Tiefe die beiden Bonustruhenziele - die Pakete der Nemesis-Truhe und das Sanctified Banner - damit du weißt, dass du die Extrabeute eingesammelt hast, bevor du den Boss pullst."
 
 return L
