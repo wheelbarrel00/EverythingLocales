@@ -18,6 +18,8 @@ L["Also reads the progress other quest addons broadcast, so you see everyone in 
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "在地下堡中的屏幕面板，显示剧情变体及其评级、适合你职责的推荐珍奇物品、计时器和死亡次数。"
 L["Bonus Spoils: Nemesis Strongbox packs + the Sanctified Banner — the bonus loot to grab before the boss."] = "额外战利品：死敌保险箱的怪物组 + Sanctified Banner — 开首领之前该拿到手的额外战利品。"
 L["Bring back every entry you have hidden"] = "恢复所有被隐藏的记录"
+L["Colors quest, achievement, and endeavor titles with the class color of the character you are currently logged in on. Overrides the color above while it is on. Off by default."] = "使用当前登录角色职业颜色渲染任务、成就、活动标题。开启后覆盖上面设置，默认关闭。"
+L["Colors the section headers (Quests, Campaign, and so on) with the class color of the character you are currently logged in on. Overrides the color above while it is on. Off by default."] = "使用当前登录角色职业颜色渲染板块标题。开启后覆盖上面设置，默认关闭。"
 L["Draws a filled bar for objectives that report a percentage or a running total, the way the default tracker does, instead of a plain line of text. Applies to quests, World Quests, achievements and scenario objectives."] = "对于会给出百分比或累计数值的目标，像默认追踪器那样绘制一条填充的进度条，而不是单纯的一行文字。适用于任务、世界任务、成就和场景战目标。"
 L["Font for the Ready/25%/50%/75%/100% markers along this lane."] = "此轨道上「就绪」/25%/50%/75%/100% 刻度标记所用的字体。"
 L["for WoW Midnight (12.0.x)"] = "适用于魔兽世界午夜版本（12.0.x）"

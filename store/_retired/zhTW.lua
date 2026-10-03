@@ -17,6 +17,8 @@ L["Also reads the progress other quest addons broadcast, so you see everyone in 
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "在探究中的畫面面板，顯示劇情變體及其評級、適合你職責的建議珍奇物品、計時器和死亡次數。"
 L["Bonus Spoils: Nemesis Strongbox packs + the Sanctified Banner — the bonus loot to grab before the boss."] = "額外戰利品：死敵保險箱的怪物組 + Sanctified Banner — 開首領之前該拿到手的額外戰利品。"
 L["Bring back every entry you have hidden"] = "恢復所有被隱藏的記錄"
+L["Colors quest, achievement, and endeavor titles with the class color of the character you are currently logged in on. Overrides the color above while it is on. Off by default."] = "使用當前登錄角色職業顏色渲染任務、成就、活動標題。開啟後覆蓋上面設置，預設關閉。"
+L["Colors the section headers (Quests, Campaign, and so on) with the class color of the character you are currently logged in on. Overrides the color above while it is on. Off by default."] = "使用當前登錄角色職業顏色渲染板塊標題。開啟後覆蓋上面設置，預設關閉。"
 L["Draws a filled bar for objectives that report a percentage or a running total, the way the default tracker does, instead of a plain line of text. Applies to quests, World Quests, achievements and scenario objectives."] = "對於會給出百分比或累計數值的目標，像預設追蹤器那樣繪製一條填滿的進度條，而不是單純的一行文字。適用於任務、世界任務、成就和場景戰目標。"
 L["for WoW Midnight (12.0.x)"] = "適用於魔獸世界午夜版本（12.0.x）"
 L["Frosthearth Venom \226\128\148 cuts enemy attack and cast speed by 20 percent, which buys time on both Soul Extinction and the Void Toxin dispel."] = "Frosthearth Venom — 使敵人的攻擊與施法速度降低 20％，為 Soul Extinction 和 Void Toxin 的驅散都爭取到時間。"

@@ -22,6 +22,8 @@ L["Card color for campaign quests. Needs Tint cards by quest type switched on."]
 L["Card color for dungeon quests. Needs Tint cards by quest type switched on."] = "던전 퀘스트의 카드 색상입니다. 퀘스트 종류별 카드 색상을 켜야 적용됩니다."
 L["Card color for legendary quests. Needs Tint cards by quest type switched on."] = "전설 퀘스트의 카드 색상입니다. 퀘스트 종류별 카드 색상을 켜야 적용됩니다."
 L["Card color for raid quests. Needs Tint cards by quest type switched on."] = "공격대 퀘스트의 카드 색상입니다. 퀘스트 종류별 카드 색상을 켜야 적용됩니다."
+L["Colors quest, achievement, and endeavor titles with the class color of the character you are currently logged in on. Overrides the color above while it is on. Off by default."] = "퀘스트, 업적, 과업 제목을 현재 접속한 캐릭터의 직업 색상으로 표시합니다. 켜져 있는 동안 위의 색상을 덮어씁니다. 기본은 꺼짐."
+L["Colors the section headers (Quests, Campaign, and so on) with the class color of the character you are currently logged in on. Overrides the color above while it is on. Off by default."] = "섹션 머리글(퀘스트, 대장정 등)을 현재 접속한 캐릭터의 직업 색상으로 표시합니다. 켜져 있는 동안 위의 색상을 덮어씁니다. 기본은 꺼짐."
 L["Draws a filled bar for objectives that report a percentage or a running total, the way the default tracker does, instead of a plain line of text. Applies to quests, World Quests, achievements and scenario objectives."] = "백분율이나 누적 수치를 보여주는 목표에 기본 추적기처럼 채워지는 막대를 그립니다. 단순한 텍스트 줄 대신 표시되며, 퀘스트, 전역 퀘스트, 업적, 시나리오 목표에 적용됩니다."
 L["for WoW Midnight (12.0.x)"] = "WoW 한밤 (12.0.x) 용"
 L["Frosthearth Venom \226\128\148 cuts enemy attack and cast speed by 20 percent, which buys time on both Soul Extinction and the Void Toxin dispel."] = "Frosthearth Venom — 적의 공격 속도와 시전 속도를 20퍼센트 낮춰, Soul Extinction과 Void Toxin 해제 양쪽에서 여유를 벌어 줍니다."
