@@ -705,9 +705,9 @@ L["Draws the extra bars and status lines the default tracker shows during world 
 L["Show quest ID"] = true
 L["Useful for bug reports."] = true
 L["Show the visible / total count on section headers"] = true
-L["For example, 3/9. Applies to every section header."] = true
+L["For example, 3/9. Applies to every section header and zone header."] = true
 L["Keep section headers in view while scrolling"] = true
-L["The header of the section you are scrolled into stays at the top of the quest list, so you can always see which section you are in. On by default."] = true
+L["The header of the section you are scrolled into stays at the top of the quest list, so you can always see which section you are in. With zone headers on, the header of the zone you are scrolled into stays just under it. On by default."] = true
 L["Show usable quest item buttons"] = true
 L["Puts a button on the tracker row of any quest that carries a usable item, so you can use it without opening your bags."] = true
 L["Show the options cogwheel on the tracker"] = true
