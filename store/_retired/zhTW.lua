@@ -27,6 +27,7 @@ L["Account-wide quest rewards. Totals count only quests turned in while reward t
 L["Adds the quest log heading each quest came from as a small line under its title."] = "在任務標題下方小字顯示該任務所屬的任務日誌分類。"
 L["Also reads the progress other quest addons broadcast, so you see everyone in the group rather than only the people running EQ. When you join a group EQ asks those addons for their quest logs, the same way they ask each other. Your own progress is never sent on their channel."] = "同時讀取其他任務插件廣播的進度，這樣你能看到隊伍中的所有人，而不只是使用 EQ 的玩家。加入隊伍時，EQ 會像這些插件彼此之間那樣向它們請求任務日誌。你自己的進度絕不會透過它們的頻道發送。"
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "在探究中的畫面面板，顯示劇情變體及其評級、適合你職責的建議珍奇物品、計時器和死亡次數。"
+L["Better questing for WoW Forever: objective markers on the world map and minimap, every quest giver with something for you, a guide to the quest chains, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "為WoW Forever提升任務體驗：世界地圖與小地圖目標標記、所有可接任務NPC、任務鏈指南、幾乎任何未接取任務的瀏覽器，以及滑鼠提示與姓名板任務進度。"
 L["Biggest gold:  (none yet)"] = "單次最高金幣：（暫無）"
 L["Biggest gold:  |cffffffff%s|r  \194\183  %s"] = "單次最高金幣：|cffffffff%s|r  •  %s"
 L["Biggest XP:    (none yet)"] = "單次最高經驗：（暫無）"
@@ -91,5 +92,6 @@ L["While inside a delve, tracks the two bonus-chest objectives - Nemesis Strongb
 L["|cffEBB706EQ Chain Guide:|r found quest |cffffffff%d|r%s — jumping to its chain."] = "|cffEBB706EQ任務鏈嚮導：|r找到任務 |cffffffff%d|r%s — 跳轉至該任務鏈。"
 L["|cffEBB706EQ Chain Guide:|r found |cffffffff%s|r — jumping to its chain."] = "|cffEBB706EQ任務鏈嚮導：|r找到 |cffffffff%s|r — 跳轉至該任務鏈。"
 L["|cffEBB706EQ Chain Guide:|r no chain quest matches |cffffffff%s|r."] = "|cffEBB706EQ任務鏈嚮導：|r沒有匹配 |cffffffff%s|r 的任務鏈。"
+L["|cffEBB706EQ|r: the quest browser needs the Classic quest data, which this version of the game does not load."] = "|cffEBB706EQ|r：任務瀏覽器需要懷舊服任務數據，而此版本的遊戲不會加載這些數據。"
 
 return L

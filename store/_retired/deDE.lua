@@ -27,6 +27,7 @@ L["Account-wide quest rewards. Totals count only quests turned in while reward t
 L["Adds the quest log heading each quest came from as a small line under its title."] = "Fügt unter dem Titel jeder Quest die Überschrift aus dem Questlog als kleine Zeile hinzu."
 L["Also reads the progress other quest addons broadcast, so you see everyone in the group rather than only the people running EQ. When you join a group EQ asks those addons for their quest logs, the same way they ask each other. Your own progress is never sent on their channel."] = "Liest auch den Fortschritt, den andere Quest-Addons senden, damit du alle in der Gruppe siehst und nicht nur die Leute mit EQ. Wenn du einer Gruppe beitrittst, fragt EQ diese Addons nach ihren Questlogs, so wie sie sich auch gegenseitig fragen. Dein eigener Fortschritt wird nie über ihren Kanal gesendet."
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "Ein Bildschirmpanel in einer Tiefe, das die Geschichtsvariante und ihre Wertung, die empfohlenen Kuriositäten für deine Rolle, deinen Laufzeit-Timer und deine Todeszahl zeigt."
+L["Better questing for WoW Forever: objective markers on the world map and minimap, every quest giver with something for you, a guide to the quest chains, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "Besseres Questen für WoW Forever: Zielmarkierungen auf Welt- und Minikarte, jeder Questgeber, der etwas für dich hat, ein Führer durch die Questreihen, ein Browser für fast jede Quest, die du noch nicht angenommen hast, und Questfortschritt in Tooltips und auf Namensplaketten."
 L["Biggest gold:  (none yet)"] = "Meistes Gold:  (noch keins)"
 L["Biggest gold:  |cffffffff%s|r  \194\183  %s"] = "Meistes Gold:  |cffffffff%s|r  ·  %s"
 L["Biggest XP:    (none yet)"] = "Meiste EP:    (noch keine)"
@@ -92,5 +93,6 @@ L["While inside a delve, tracks the two bonus-chest objectives - Nemesis Strongb
 L["|cffEBB706EQ Chain Guide:|r found quest |cffffffff%d|r%s — jumping to its chain."] = "|cffEBB706EQ-Questreihenführer:|r Quest |cffffffff%d|r%s gefunden — springe zu ihrer Reihe."
 L["|cffEBB706EQ Chain Guide:|r found |cffffffff%s|r — jumping to its chain."] = "|cffEBB706EQ-Questreihenführer:|r |cffffffff%s|r gefunden — springe zu ihrer Reihe."
 L["|cffEBB706EQ Chain Guide:|r no chain quest matches |cffffffff%s|r."] = "|cffEBB706EQ-Questreihenführer:|r Keine Questreihenquest passt zu |cffffffff%s|r."
+L["|cffEBB706EQ|r: the quest browser needs the Classic quest data, which this version of the game does not load."] = "|cffEBB706EQ|r: Der Questbrowser benötigt die Classic-Questdaten, die diese Spielversion nicht lädt."
 
 return L

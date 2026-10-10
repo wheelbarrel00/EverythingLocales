@@ -27,6 +27,7 @@ L["Account-wide quest rewards. Totals count only quests turned in while reward t
 L["Adds the quest log heading each quest came from as a small line under its title."] = "각 퀘스트가 속한 퀘스트 일지 머리글을 제목 아래 작은 글씨로 붙입니다."
 L["Also reads the progress other quest addons broadcast, so you see everyone in the group rather than only the people running EQ. When you join a group EQ asks those addons for their quest logs, the same way they ask each other. Your own progress is never sent on their channel."] = "다른 퀘스트 애드온이 보내는 진행도도 읽어, EQ를 쓰는 사람뿐 아니라 파티 전원을 볼 수 있습니다. 파티에 들어가면 EQ가 그 애드온들이 서로에게 하는 것과 같은 방식으로 퀘스트 일지를 요청합니다. 내 진행도는 그쪽 채널로 절대 보내지 않습니다."
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "구렁 안에 있는 동안 이야기 변형과 등급, 역할에 맞는 추천 진기한 물건, 진행 시간, 사망 횟수를 보여주는 화면 패널입니다."
+L["Better questing for WoW Forever: objective markers on the world map and minimap, every quest giver with something for you, a guide to the quest chains, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "WoW Forever를 위한 더 나은 퀘스트 진행: 세계 지도와 미니맵의 목표 표식, 줄 것이 있는 모든 퀘스트 제공자, 퀘스트 연계 가이드, 아직 수락하지 않은 거의 모든 퀘스트를 찾아보는 검색기, 그리고 툴팁과 이름표의 퀘스트 진행도."
 L["Biggest gold:  (none yet)"] = "최대 골드:  (아직 없음)"
 L["Biggest gold:  |cffffffff%s|r  \194\183  %s"] = "최대 골드:  |cffffffff%s|r  \194\183  %s"
 L["Biggest XP:    (none yet)"] = "최대 경험치:    (아직 없음)"
@@ -99,5 +100,6 @@ L["While inside a delve, tracks the two bonus-chest objectives - Nemesis Strongb
 L["|cffEBB706EQ Chain Guide:|r found quest |cffffffff%d|r%s — jumping to its chain."] = "|cffEBB706EQ 연계 가이드:|r 퀘스트 |cffffffff%d|r%s을 찾았습니다 - 해당 연계로 이동."
 L["|cffEBB706EQ Chain Guide:|r found |cffffffff%s|r — jumping to its chain."] = "|cffEBB706EQ 연계 가이드:|r |cffffffff%s|r을 찾았습니다 - 해당 연계로 이동."
 L["|cffEBB706EQ Chain Guide:|r no chain quest matches |cffffffff%s|r."] = "|cffEBB706EQ 연계 가이드:|r |cffffffff%s|r와 일치하는 연계 퀘스트가 없습니다."
+L["|cffEBB706EQ|r: the quest browser needs the Classic quest data, which this version of the game does not load."] = "|cffEBB706EQ|r: 퀘스트 검색기에는 클래식 퀘스트 데이터가 필요하지만, 이 버전의 게임은 해당 데이터를 불러오지 않습니다."
 
 return L

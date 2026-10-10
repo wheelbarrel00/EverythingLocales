@@ -27,6 +27,7 @@ L["Account-wide quest rewards. Totals count only quests turned in while reward t
 L["Adds the quest log heading each quest came from as a small line under its title."] = "Добавляет под названием задания небольшую строку с заголовком журнала заданий, под которым оно находится."
 L["Also reads the progress other quest addons broadcast, so you see everyone in the group rather than only the people running EQ. When you join a group EQ asks those addons for their quest logs, the same way they ask each other. Your own progress is never sent on their channel."] = "Также читает прогресс, который передают другие аддоны заданий, чтобы вы видели всю группу, а не только тех, у кого стоит EQ. Когда вы вступаете в группу, EQ запрашивает у этих аддонов журналы заданий так же, как они запрашивают их друг у друга. Ваш собственный прогресс никогда не отправляется по их каналу."
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "Панель на экране внутри вылазки, показывающая вариацию истории и ее ранг, рекомендованные диковинки для вашей роли, таймер прохождения и число смертей."
+L["Better questing for WoW Forever: objective markers on the world map and minimap, every quest giver with something for you, a guide to the quest chains, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "Удобное выполнение заданий в WoW Forever: метки целей на карте мира и мини-карте, все персонажи, у которых есть для вас задания, гид по цепочкам заданий, обозреватель почти любых заданий, которые вы ещё не взяли, и прогресс заданий в подсказках и возле полосок здоровья."
 L["Biggest gold:  (none yet)"] = "Больше всего золота: (пока нет)"
 L["Biggest gold:  |cffffffff%s|r  \194\183  %s"] = "Больше всего золота: |cffffffff%s|r  \194\183  %s"
 L["Biggest XP:    (none yet)"] = "Больше всего XP:    (пока нет)"
@@ -104,5 +105,6 @@ L["While inside a delve, tracks the two bonus-chest objectives - Nemesis Strongb
 L["|cffEBB706EQ Chain Guide:|r found quest |cffffffff%d|r%s — jumping to its chain."] = "|cffEBB706EQ Гид по цепочкам:|r задание |cffffffff%d|r%s найдено - переход к его цепочке."
 L["|cffEBB706EQ Chain Guide:|r found |cffffffff%s|r — jumping to its chain."] = "|cffEBB706Путеводитель по цепочкам:|r найдено |cffffffff%s|r - переход к цепочке."
 L["|cffEBB706EQ Chain Guide:|r no chain quest matches |cffffffff%s|r."] = "|cffEBB706Путеводитель по цепочкам:|r ни одно задание цепочки не соответствует |cffffffff%s|r."
+L["|cffEBB706EQ|r: the quest browser needs the Classic quest data, which this version of the game does not load."] = "|cffEBB706EQ|r: обозревателю заданий нужны данные заданий Classic, которые эта версия игры не загружает."
 
 return L
