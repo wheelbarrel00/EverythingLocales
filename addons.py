@@ -61,8 +61,10 @@ ADDONS = {
         # One hand-rolled panel rather than a file per tab, so the order is just
         # the panel first and the frames it draws after it.
         'preferred': [
-            'UI/Options.lua', 'UI/Widgets.lua', 'UI/WhatsNew.lua',
-            'UI/Lanes.lua', 'UI/ReadyFrames.lua', 'UI/Bars.lua',
+            'UI/Settings.lua', 'UI/SettingsGlobal.lua', 'UI/SettingsLanes.lua',
+            'UI/SettingsReady.lua', 'UI/SettingsBars.lua', 'UI/SettingsFilters.lua',
+            'UI/SettingsColors.lua', 'UI/SettingsProfiles.lua', 'UI/SettingsAbout.lua',
+            'UI/WhatsNew.lua', 'UI/Lanes.lua', 'UI/ReadyFrames.lua', 'UI/Bars.lua',
         ],
         # tools/ and docs/ are dev scripts, media/ has no Lua
         'skip': ('Libs/', 'Locales/', 'tools/', 'docs/'),
