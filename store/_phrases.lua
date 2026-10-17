@@ -719,7 +719,7 @@ L["A small cogwheel at the top-right of the tracker that opens the options panel
 L["Show the sort button on the tracker"] = true
 L["A small button at the top-left of the tracker that opens a list of the sort orders, so you can switch between them in two clicks. It changes the same Sort Order as the On-Screen Tracker card. Off by default."] = true
 L["Show the filter button on the tracker"] = true
-L["A small funnel at the top-left of the tracker that opens a list of the filters, so you can turn quest types and the current-zone filter on and off in a couple of clicks. The list stays open while you tick boxes, and the funnel turns gold while any filter is hiding quests. It changes the same filters as the Filters card. Off by default."] = true
+L["A small funnel at the top-left of the tracker that opens a list of the filters, so you can turn quest types and the current-zone filter on and off in a couple of clicks. The list stays open while you check boxes, and the funnel turns gold while any filter in it is set to hide quests. It changes the same filters as the Filters card. Off by default."] = true
 L["Show Quest Discovered popups"] = true
 L["Boxes for newly discovered / completed quests."] = true
 L["Show NEW tag on recently accepted quests"] = true
@@ -926,7 +926,7 @@ L["Color and opacity of the scroll bar track."] = true
 L["Solid color thumb"] = true
 L["Replaces the tracker scroll bar's textured thumb (the draggable block) with a flat single-color block. Use the Thumb Color and Thumb Width controls to style it. Off restores the stock Blizzard bar."] = true
 L["Thumb Color"] = true
-L["Color and opacity of the draggable block. Only used while Solid color thumb is on."] = true
+L["Color and opacity of the draggable block. Used while Solid color thumb is on, and always while Scroll Bar Width is below 16."] = true
 L["Thumb Width"] = true
 L["How wide the draggable block is. Only used while Solid color thumb is on."] = true
 L["Hide scroll bar arrows"] = true
