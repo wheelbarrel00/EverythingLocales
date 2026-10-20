@@ -1904,7 +1904,7 @@ L["The quest you are following stays fully solid while the rest of the tracker i
 L["The readout leaves out the mouse position and your position while the game's own map coordinates show them, set by its \"%1$s\" and \"%2$s\" options."] = "游戏自带的地图坐标显示鼠标位置和你的位置时，此读数不再重复显示（游戏的「%1$s」和「%2$s」选项）。"
 L["The readout stays hidden while the game shows its own minimap coordinates, set by its \"%s\" option."] = "游戏自带的小地图坐标显示时，此读数保持隐藏（游戏的「%s」选项）。"
 L["The same intermission runs at all three health thresholds, one step longer each time."] = "三个生命值节点触发的是同一个间歇阶段，每次都会多一轮。"
-L["The same switch as on the Tracker tab, where the number beside each section chooses its tab. Off by default."] = "与“追踪框”标签页中的开关相同，在那里用每个板块旁的数字选择其标签页。默认关闭。"
+L["The same switch as on the Tracker tab, where the number beside each section chooses its tab. The tabs appear once two of them hold a section. Off by default."] = "与“追踪框”标签页中的开关相同，在那里用每个板块旁的数字选择其标签页。至少两个标签页含有板块时才会出现标签页。默认关闭。"
 L["The seasonal cap on this crest. For some crests it limits how many you can earn all season. For others it limits how many you can hold at once, and spending frees room again."] = "该纹章的赛季上限。对部分纹章而言，它限制你整个赛季能获得的数量。对其他纹章而言，它限制你能同时持有的数量，消耗后会重新空出位置。"
 L["The section names on the other tabs."] = "其他标签页上的板块名称。"
 L["The section names on the tab you are on."] = "当前所在标签页上的板块名称。"

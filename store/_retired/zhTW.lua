@@ -135,6 +135,7 @@ L["The header of the section you are scrolled into stays at the top of the quest
 L["The most of this crest you're allowed to earn this season - the seasonal earning cap."] = "本賽季你最多能獲得的該紋章數量 - 也就是賽季取得上限。"
 L["The Nemesis Delve"] = "死敵探究"
 L["the one-time seasonal quest; defeat Azta'rec to earn it."] = "一次性賽季任務；擊敗 Azta'rec 即可獲得。"
+L["The same switch as on the Tracker tab, where the number beside each section chooses its tab. Off by default."] = "與「追蹤框」標籤頁中的開關相同，在那裡用每個板塊旁的數字選擇其標籤頁。預設關閉。"
 L["The seasonal cap on this crest - how many you can earn for the lower crests, and how many you can hold at once for the higher ones."] = "該紋章的賽季上限 - 低階紋章指你能取得的數量，高階紋章指你能同時持有的數量。"
 L["These settings apply to every spell in the chosen category. To override an individual spell, use that category's sub-tab on the left."] = "這些設定套用於所選分類中的每個法術。若要單獨覆寫某個法術，請使用左側該分類的子標籤頁。"
 L["This category stays empty on this version of the game.\nIt lists Blizzard's own bar-style tracked buffs, which exist only on retail. The harmful effects you put on a target are under Offensives."] = "此分類在目前版本的遊戲中保持為空。\n它列出的是暴雪內建的條狀追蹤增益，僅存在於正式服。你施加在目標身上的有害效果請見【攻擊效果】。"

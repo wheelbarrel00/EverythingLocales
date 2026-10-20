@@ -1904,7 +1904,7 @@ L["The quest you are following stays fully solid while the rest of the tracker i
 L["The readout leaves out the mouse position and your position while the game's own map coordinates show them, set by its \"%1$s\" and \"%2$s\" options."] = "게임 자체 지도 좌표가 마우스 위치와 내 위치를 표시하는 동안에는 이 표시에서 해당 위치를 뺍니다(게임의 \"%1$s\", \"%2$s\" 옵션)."
 L["The readout stays hidden while the game shows its own minimap coordinates, set by its \"%s\" option."] = "게임 자체 미니맵 좌표가 표시되는 동안에는 이 표시가 숨겨집니다(게임의 \"%s\" 옵션)."
 L["The same intermission runs at all three health thresholds, one step longer each time."] = "같은 중간 단계가 세 생명력 구간에서 모두 진행되며, 매번 한 단계씩 길어집니다."
-L["The same switch as on the Tracker tab, where the number beside each section chooses its tab. Off by default."] = "'추적기' 탭에 있는 것과 같은 설정으로, 그곳에서 각 섹션 옆의 숫자로 탭을 고릅니다. 기본은 꺼짐."
+L["The same switch as on the Tracker tab, where the number beside each section chooses its tab. The tabs appear once two of them hold a section. Off by default."] = "'추적기' 탭에 있는 것과 같은 설정으로, 그곳에서 각 섹션 옆의 숫자로 탭을 고릅니다. 탭은 두 개 이상의 탭에 섹션이 있을 때 나타납니다. 기본은 꺼짐."
 L["The seasonal cap on this crest. For some crests it limits how many you can earn all season. For others it limits how many you can hold at once, and spending frees room again."] = "이 문장의 시즌 한도입니다. 일부 문장은 시즌 내내 획득할 수 있는 개수를 제한합니다. 다른 문장은 동시에 보유할 수 있는 개수를 제한하며, 사용하면 다시 여유가 생깁니다."
 L["The section names on the other tabs."] = "다른 탭의 섹션 이름입니다."
 L["The section names on the tab you are on."] = "현재 탭의 섹션 이름입니다."
