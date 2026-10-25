@@ -37,6 +37,7 @@ L["Applies to spells flagged Important in the Filters tab. Important spells use 
 L["Bars 1"] = "计时条 1"
 L["Bars 2"] = "计时条 2"
 L["Bars 3"] = "计时条 3"
+L["Better questing for Classic: objective markers on the world map and minimap, every quest giver with something for you, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "为怀旧服提升任务体验：世界地图与小地图目标标记、所有可接任务NPC、几乎任何未接取任务的浏览器，以及鼠标提示与姓名板任务进度。"
 L["Better questing for WoW Forever: objective markers on the world map and minimap, every quest giver with something for you, a guide to the quest chains, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "为WoW Forever提升任务体验：世界地图与小地图目标标记、所有可接任务NPC、任务链指南、几乎任何未接取任务的浏览器，以及鼠标提示与姓名板任务进度。"
 L["Biggest gold:  (none yet)"] = "单次最高金币：（暂无）"
 L["Biggest gold:  |cffffffff%s|r  \194\183  %s"] = "单次最高金币：|cffffffff%s|r  •  %s"

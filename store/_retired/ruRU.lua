@@ -36,6 +36,7 @@ L["Applies to spells flagged Important in the Filters tab. Important spells use 
 L["Bars 1"] = "Полосы 1"
 L["Bars 2"] = "Полосы 2"
 L["Bars 3"] = "Полосы 3"
+L["Better questing for Classic: objective markers on the world map and minimap, every quest giver with something for you, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "Удобное выполнение заданий в Classic: метки целей на карте мира и мини-карте, все персонажи, у которых есть для вас задания, обозреватель почти любых заданий, которые вы ещё не взяли, и прогресс заданий в подсказках и возле полосок здоровья."
 L["Better questing for WoW Forever: objective markers on the world map and minimap, every quest giver with something for you, a guide to the quest chains, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "Удобное выполнение заданий в WoW Forever: метки целей на карте мира и мини-карте, все персонажи, у которых есть для вас задания, гид по цепочкам заданий, обозреватель почти любых заданий, которые вы ещё не взяли, и прогресс заданий в подсказках и возле полосок здоровья."
 L["Biggest gold:  (none yet)"] = "Больше всего золота: (пока нет)"
 L["Biggest gold:  |cffffffff%s|r  \194\183  %s"] = "Больше всего золота: |cffffffff%s|r  \194\183  %s"

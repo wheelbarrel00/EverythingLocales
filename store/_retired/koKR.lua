@@ -36,6 +36,7 @@ L["Applies to spells flagged Important in the Filters tab. Important spells use 
 L["Bars 1"] = "막대 1"
 L["Bars 2"] = "막대 2"
 L["Bars 3"] = "막대 3"
+L["Better questing for Classic: objective markers on the world map and minimap, every quest giver with something for you, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "클래식을 위한 더 나은 퀘스트 진행: 세계 지도와 미니맵의 목표 표식, 줄 것이 있는 모든 퀘스트 제공자, 아직 수락하지 않은 거의 모든 퀘스트를 찾아보는 검색기, 그리고 툴팁과 이름표의 퀘스트 진행도."
 L["Better questing for WoW Forever: objective markers on the world map and minimap, every quest giver with something for you, a guide to the quest chains, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = "WoW Forever를 위한 더 나은 퀘스트 진행: 세계 지도와 미니맵의 목표 표식, 줄 것이 있는 모든 퀘스트 제공자, 퀘스트 연계 가이드, 아직 수락하지 않은 거의 모든 퀘스트를 찾아보는 검색기, 그리고 툴팁과 이름표의 퀘스트 진행도."
 L["Biggest gold:  (none yet)"] = "최대 골드:  (아직 없음)"
 L["Biggest gold:  |cffffffff%s|r  \194\183  %s"] = "최대 골드:  |cffffffff%s|r  \194\183  %s"
