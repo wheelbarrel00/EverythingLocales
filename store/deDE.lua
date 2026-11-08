@@ -243,6 +243,7 @@ L["API discoveries not in our routing table."] = "Von der API gefundene Einträg
 L["Appearance"] = "Darstellung"
 L["Applies to spells flagged Important under Filters. Important spells use the hold and sound below instead of the normal ones."] = "Gilt für Zauber, die unter Filter als Wichtig markiert sind. Wichtige Zauber verwenden die Haltedauer und den Ton unten statt der normalen."
 L["Approximate questline progress."] = "Ungefährer Fortschritt der Questreihe."
+L["Approximate questline progress. On WoW Forever this needs Everything Quests."] = "Ungefährer Fortschritt der Questreihe. In WoW Forever wird dafür Everything Quests benötigt."
 L["Are you sure you want to clear all Delve History?\n\nThis will permanently erase all lifetime stats, run history, and personal bests for every delve on this character. This cannot be undone."] = "Möchtest du wirklich den gesamten Tiefenverlauf löschen?\n\nDamit werden alle Gesamtstatistiken, der Durchgangsverlauf und die persönlichen Bestzeiten für jede Tiefe dieses Charakters dauerhaft gelöscht. Das kann nicht rückgängig gemacht werden."
 L["Arena"] = "Arena"
 L["Artifact Power"] = "Artefaktmacht"
@@ -2282,4 +2283,11 @@ L["|cffEBB706EQ|r: the Quest Browser needs the Classic quest data, which this ve
 L["|cffEBB706Everything Quests|r: couldn't open Options \226\128\148 %s"] = "|cffEBB706Everything Quests|r: Optionen konnten nicht geöffnet werden — %s"
 L["|cffff9933%d skipped|r"] = "|cffff9933%d übersprungen|r"
 
+L["Not counted on the zone progress bar: a dungeon or raid quest."] = "Wird in der Gebietsfortschrittsleiste nicht mitgezählt: eine Dungeon- oder Schlachtzugsquest."
+L["Not counted on the zone progress bar: a repeatable quest."] = "Wird in der Gebietsfortschrittsleiste nicht mitgezählt: eine wiederholbare Quest."
+L["Not counted on the zone progress bar: a profession quest."] = "Wird in der Gebietsfortschrittsleiste nicht mitgezählt: eine Berufsquest."
+L["Not counted on the zone progress bar: a holiday quest."] = "Wird in der Gebietsfortschrittsleiste nicht mitgezählt: eine Quest eines Weltereignisses."
+L["Not counted on the zone progress bar: part of the Ahn'Qiraj war effort."] = "Wird in der Gebietsfortschrittsleiste nicht mitgezählt: Teil der Kriegsanstrengungen von Ahn'Qiraj."
+L["Not counted on the zone progress bar: only another race or class can take it."] = "Wird in der Gebietsfortschrittsleiste nicht mitgezählt: Nur ein anderes Volk oder eine andere Klasse kann sie annehmen."
+L["Not counted on the zone progress bar: it needs a quest only another race or class can take."] = "Wird in der Gebietsfortschrittsleiste nicht mitgezählt: Sie erfordert eine Quest, die nur ein anderes Volk oder eine andere Klasse annehmen kann."
 return L

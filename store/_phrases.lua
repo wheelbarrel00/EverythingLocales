@@ -255,6 +255,15 @@ L["Continue"] = true
 L["Track this chain"] = true
 L["Follow this chain — its quests pin on the world map (next step highlighted) and your waypoint auto-advances to the next step as you complete it. Works even with this window closed. Click again to stop."] = true
 
+-- EQ: Modules/ChainGuide/ClassicSource.lua
+L["Not counted on the zone progress bar: a dungeon or raid quest."] = true
+L["Not counted on the zone progress bar: a repeatable quest."] = true
+L["Not counted on the zone progress bar: a profession quest."] = true
+L["Not counted on the zone progress bar: a holiday quest."] = true
+L["Not counted on the zone progress bar: part of the Ahn'Qiraj war effort."] = true
+L["Not counted on the zone progress bar: only another race or class can take it."] = true
+L["Not counted on the zone progress bar: it needs a quest only another race or class can take."] = true
+
 -- EQ: Modules/ChainGuide/Frame.lua
 L["Drag to resize"] = true
 L["Options"] = true
@@ -1017,6 +1026,7 @@ L["HUD Scale"] = true
 L["Sizes the bonus objectives HUD."] = true
 L["Zone Progress Bar"] = true
 L["Show zone progress bar"] = true
+L["Approximate questline progress. On WoW Forever this needs Everything Quests."] = true
 L["Approximate questline progress."] = true
 L["Float as a movable bar"] = true
 L["Drag to move, right-click to lock or reset. Unticked, the bar becomes an ordinary tracker section instead and only Bar Texture and Bar Color still apply to it."] = true

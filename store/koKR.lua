@@ -243,6 +243,7 @@ L["API discoveries not in our routing table."] = "라우팅 표에 없는 API �
 L["Appearance"] = "외형"
 L["Applies to spells flagged Important under Filters. Important spells use the hold and sound below instead of the normal ones."] = "필터에서 중요로 표시한 주문에 적용됩니다. 중요 주문은 일반 설정 대신 아래의 강조 시간과 강조 소리를 사용합니다."
 L["Approximate questline progress."] = "대략적인 퀘스트라인 진행도."
+L["Approximate questline progress. On WoW Forever this needs Everything Quests."] = "대략적인 퀘스트라인 진행도. WoW Forever에서는 Everything Quests가 필요합니다."
 L["Are you sure you want to clear all Delve History?\n\nThis will permanently erase all lifetime stats, run history, and personal bests for every delve on this character. This cannot be undone."] = "구렁 기록을 모두 지우시겠습니까?\n\n이 캐릭터의 모든 누적 통계, 진행 기록, 개인 최고 기록이 구렁별로 영구히 삭제됩니다. 이 작업은 되돌릴 수 없습니다."
 L["Arena"] = "투기장"
 L["Artifact Power"] = "유물력"
@@ -2282,4 +2283,11 @@ L["|cffEBB706EQ|r: the Quest Browser needs the Classic quest data, which this ve
 L["|cffEBB706Everything Quests|r: couldn't open Options \226\128\148 %s"] = "|cffEBB706Everything Quests|r: 설정을 열 수 없습니다 - %s"
 L["|cffff9933%d skipped|r"] = "|cffff9933%d개 건너뜀|r"
 
+L["Not counted on the zone progress bar: a dungeon or raid quest."] = "지역 진행 막대에 포함되지 않음: 던전 또는 공격대 퀘스트입니다."
+L["Not counted on the zone progress bar: a repeatable quest."] = "지역 진행 막대에 포함되지 않음: 반복 퀘스트입니다."
+L["Not counted on the zone progress bar: a profession quest."] = "지역 진행 막대에 포함되지 않음: 전문기술 퀘스트입니다."
+L["Not counted on the zone progress bar: a holiday quest."] = "지역 진행 막대에 포함되지 않음: 월드 이벤트 퀘스트입니다."
+L["Not counted on the zone progress bar: part of the Ahn'Qiraj war effort."] = "지역 진행 막대에 포함되지 않음: 안퀴라즈 전쟁 준비의 일부입니다."
+L["Not counted on the zone progress bar: only another race or class can take it."] = "지역 진행 막대에 포함되지 않음: 다른 종족이나 직업만 수락할 수 있습니다."
+L["Not counted on the zone progress bar: it needs a quest only another race or class can take."] = "지역 진행 막대에 포함되지 않음: 다른 종족이나 직업만 수락할 수 있는 퀘스트가 필요합니다."
 return L

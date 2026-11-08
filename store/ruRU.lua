@@ -243,6 +243,7 @@ L["API discoveries not in our routing table."] = "Найденные через 
 L["Appearance"] = "Внешний вид"
 L["Applies to spells flagged Important under Filters. Important spells use the hold and sound below instead of the normal ones."] = "Применяется к заклинаниям, отмеченным как «Важное» в разделе «Фильтры». Важные заклинания используют удержание и звук ниже вместо обычных."
 L["Approximate questline progress."] = "Примерный прогресс по цепочкам заданий."
+L["Approximate questline progress. On WoW Forever this needs Everything Quests."] = "Примерный прогресс по цепочкам заданий. В WoW Forever для этого требуется Everything Quests."
 L["Are you sure you want to clear all Delve History?\n\nThis will permanently erase all lifetime stats, run history, and personal bests for every delve on this character. This cannot be undone."] = "Вы уверены, что хотите очистить всю историю вылазок?\n\nЭто навсегда сотрет всю общую статистику, историю прохождений и личные рекорды по каждой вылазке на этом персонаже. Это действие необратимо."
 L["Arena"] = "Арена"
 L["Artifact Power"] = "Артефакт"
@@ -2282,4 +2283,11 @@ L["|cffEBB706EQ|r: the Quest Browser needs the Classic quest data, which this ve
 L["|cffEBB706Everything Quests|r: couldn't open Options \226\128\148 %s"] = "|cffEBB706Everything Quests|r: не удалось открыть настройки \226\128\148 %s"
 L["|cffff9933%d skipped|r"] = "|cffff9933%d пропущено|r"
 
+L["Not counted on the zone progress bar: a dungeon or raid quest."] = "Не учитывается в полосе прогресса зоны: задание подземелья или рейда."
+L["Not counted on the zone progress bar: a repeatable quest."] = "Не учитывается в полосе прогресса зоны: повторяемое задание."
+L["Not counted on the zone progress bar: a profession quest."] = "Не учитывается в полосе прогресса зоны: задание профессии."
+L["Not counted on the zone progress bar: a holiday quest."] = "Не учитывается в полосе прогресса зоны: задание игрового события."
+L["Not counted on the zone progress bar: part of the Ahn'Qiraj war effort."] = "Не учитывается в полосе прогресса зоны: часть подготовки к войне в Ан'Кираже."
+L["Not counted on the zone progress bar: only another race or class can take it."] = "Не учитывается в полосе прогресса зоны: взять его может только другая раса или класс."
+L["Not counted on the zone progress bar: it needs a quest only another race or class can take."] = "Не учитывается в полосе прогресса зоны: для него нужно задание, которое может взять только другая раса или класс."
 return L

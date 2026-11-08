@@ -243,6 +243,7 @@ L["API discoveries not in our routing table."] = "不在路由表內的API返回
 L["Appearance"] = "外觀"
 L["Applies to spells flagged Important under Filters. Important spells use the hold and sound below instead of the normal ones."] = "適用於在【過濾器】中標記為【重要】的法術。重要法術會使用下方的【高亮時長】與【高亮音效】，而非普通法術的那一組設定。"
 L["Approximate questline progress."] = "任務線大致進度"
+L["Approximate questline progress. On WoW Forever this needs Everything Quests."] = "任務線大致進度。在WoW Forever中需要依賴 Everything Quests。"
 L["Are you sure you want to clear all Delve History?\n\nThis will permanently erase all lifetime stats, run history, and personal bests for every delve on this character. This cannot be undone."] = "確定要清空全部探究歷史嗎？\n\n這會永久抹除此角色在每個探究的累計統計、通關紀錄和個人最佳成績。此動作無法復原。"
 L["Arena"] = "競技場"
 L["Artifact Power"] = "神器能量"
@@ -2282,4 +2283,11 @@ L["|cffEBB706EQ|r: the Quest Browser needs the Classic quest data, which this ve
 L["|cffEBB706Everything Quests|r: couldn't open Options \226\128\148 %s"] = "|cffEBB706Everything Quests|r：無法打開設置面板 — %s"
 L["|cffff9933%d skipped|r"] = "|cffff9933%d個已跳過|r"
 
+L["Not counted on the zone progress bar: a dungeon or raid quest."] = "不計入區域進度條：地下城或團隊副本任務。"
+L["Not counted on the zone progress bar: a repeatable quest."] = "不計入區域進度條：可重複任務。"
+L["Not counted on the zone progress bar: a profession quest."] = "不計入區域進度條：專業任務。"
+L["Not counted on the zone progress bar: a holiday quest."] = "不計入區域進度條：世界活動任務。"
+L["Not counted on the zone progress bar: part of the Ahn'Qiraj war effort."] = "不計入區域進度條：屬於安其拉戰爭籌備。"
+L["Not counted on the zone progress bar: only another race or class can take it."] = "不計入區域進度條：只有其他種族或職業才能接取。"
+L["Not counted on the zone progress bar: it needs a quest only another race or class can take."] = "不計入區域進度條：需要一個只有其他種族或職業才能接取的任務。"
 return L
