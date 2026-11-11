@@ -132,6 +132,7 @@ L["Replaces the tracker scroll bar's textured thumb (the draggable block) with a
 L["Restore every option to its default value."] = "모든 옵션을 기본값으로 되돌립니다."
 L["Restores every control on this tab, including the zone bar block, to its default. Other tabs are left alone."] = "지역 막대 그룹을 포함해 이 탭의 모든 항목을 기본값으로 되돌립니다. 다른 탭은 건드리지 않습니다."
 L["Restores every setting on every tab to its default and reloads the interface. This also clears the Options Window Scale, which every character shares, and this character's collapsed sections and individually hidden entries."] = "모든 탭의 모든 설정을 기본값으로 되돌리고 인터페이스를 다시 불러옵니다. 모든 캐릭터가 공유하는 설정 창 배율, 그리고 이 캐릭터의 접힌 구역과 개별 숨김 항목도 함께 초기화됩니다."
+L["Restores every setting on every tab to its default and reloads the interface. This also clears the Options Window Scale, which every character shares, and this character's collapsed sections and pinned entries."] = "모든 탭의 모든 설정을 기본값으로 되돌리고 인터페이스를 다시 불러옵니다. 모든 캐릭터가 공유하는 설정 창 배율, 그리고 이 캐릭터의 접힌 구역과 고정 항목도 함께 초기화됩니다."
 L["Run this lane top-to-bottom instead of left-to-right. Toggling it swaps the lane's Width and Height (Appearance tab) so the bar keeps its shape, just rotated."] = "이 레인을 왼쪽에서 오른쪽이 아니라 위에서 아래로 흐르게 합니다. 전환하면 레인의 너비와 높이(외형 탭)가 서로 바뀌어 모양은 그대로 유지된 채 회전만 됩니다."
 L["Runs kept per delve:"] = "구렁당 보관 기록 수:"
 L["Sanctified Banner - find it for bonus loot"] = "축성된 깃발 - 추가 전리품을 위해 찾아보세요"

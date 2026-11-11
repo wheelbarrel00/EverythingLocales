@@ -126,6 +126,7 @@ L["Replaces the tracker scroll bar's textured thumb (the draggable block) with a
 L["Restore every option to its default value."] = "把每一項設定恢復為預設值。"
 L["Restores every control on this tab, including the zone bar block, to its default. Other tabs are left alone."] = "將本標簽頁全部選項（包含區域進度條）恢復預設，其他標簽頁不受影響。"
 L["Restores every setting on every tab to its default and reloads the interface. This also clears the Options Window Scale, which every character shares, and this character's collapsed sections and individually hidden entries."] = "全部標簽頁恢復預設並重載界面。同時重置全角色共享的選項窗口縮放，以及本角色折疊板塊、單獨隱藏條目。"
+L["Restores every setting on every tab to its default and reloads the interface. This also clears the Options Window Scale, which every character shares, and this character's collapsed sections and pinned entries."] = "全部標籤頁恢復預設並重載界面。同時重置全角色共享的設定視窗縮放，以及本角色折疊板塊、固定條目。"
 L["Run this lane top-to-bottom instead of left-to-right. Toggling it swaps the lane's Width and Height (Appearance tab) so the bar keeps its shape, just rotated."] = "讓此軌道由上而下運行，而非由左至右。切換時會對調軌道的寬度與高度（外觀標籤頁），使其保持原有形狀，僅是旋轉。"
 L["Runs kept per delve:"] = "每個探究保留的紀錄數："
 L["Sanctified Banner - find it for bonus loot"] = "Sanctified Banner - 找到它即可獲得額外戰利品"
