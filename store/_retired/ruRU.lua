@@ -17,6 +17,7 @@ L["%d spells tracked. \"Default\" follows this category's Defaults tab; the last
 L["%s  \194\183  %s quests  \194\183  %s  \194\183  %s XP"] = "%s  \194\183  %s заданий  \194\183  %s  \194\183  %s XP"
 L["%s Defaults"] = "Значения по умолчанию: %s"
 L["%s%s|r %s(%s)|r%s  \226\128\148  %s%d|r in progress  %s%d|r banked  %s%d|r done  %s%d|r left"] = "%s%s|r %s(%s)|r%s  —  %s%d|r в процессе  %s%d|r отложено  %s%d|r сдано  %s%d|r осталось"
+L["%s, or %s."] = "%s или %s."
 L["/eqs\n/everythingquests\n\n|cff999999Both open this options window.|r\n\n/eqs whatsnew\n\n|cff999999Show what's new in the latest update.|r\n\n/eqs session\n\n|cff999999Show a recap of your current play session.|r"] = "/eqs\n/everythingquests\n\n|cff999999Обе открывают это окно настроек.|r\n\n/eqs whatsnew\n\n|cff999999Показать, что нового в последнем обновлении.|r\n\n/eqs session\n\n|cff999999Показать итоги текущей игровой сессии.|r"
 L["[Done] %s - completed"] = "[Готово] %s - выполнено"
 L["[Done] Fangs for the Memories complete \226\128\148 Corrosive Victory earned."] = "[Готово] Fangs for the Memories завершено — Corrosive Victory получена."

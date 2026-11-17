@@ -17,6 +17,7 @@ L["%d spells tracked. \"Default\" follows this category's Defaults tab; the last
 L["%s  \194\183  %s quests  \194\183  %s  \194\183  %s XP"] = "%s  \194\183  %s 퀘스트  \194\183  %s  \194\183  %s 경험치"
 L["%s Defaults"] = "%s 기본값"
 L["%s%s|r %s(%s)|r%s  \226\128\148  %s%d|r in progress  %s%d|r banked  %s%d|r done  %s%d|r left"] = "%s%s|r %s(%s)|r%s  -  진행 중 %s%d|r  보류 %s%d|r  완료 %s%d|r  남음 %s%d|r"
+L["%s, or %s."] = "%s 또는 %s."
 L["/eqs\n/everythingquests\n\n|cff999999Both open this options window.|r\n\n/eqs whatsnew\n\n|cff999999Show what's new in the latest update.|r\n\n/eqs session\n\n|cff999999Show a recap of your current play session.|r"] = "/eqs\n/everythingquests\n\n|cff999999둘 다 이 설정 창을 엽니다.|r\n\n/eqs whatsnew\n\n|cff999999최신 업데이트의 새 소식을 표시합니다.|r\n\n/eqs session\n\n|cff999999현재 플레이 세션 요약을 표시합니다.|r"
 L["[Done] %s - completed"] = "[완료] %s - 완료됨"
 L["[Done] Fangs for the Memories complete \226\128\148 Corrosive Victory earned."] = "[완료] 추억은 송곳니를 타고 완료 - 부식하는 승리 획득."

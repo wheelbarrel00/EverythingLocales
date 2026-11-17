@@ -18,6 +18,7 @@ L["%d spells tracked. \"Default\" follows this category's Defaults tab; the last
 L["%s  \194\183  %s quests  \194\183  %s  \194\183  %s XP"] = "%s  •  %s 个任务  •  %s  •  %s 经验"
 L["%s Defaults"] = "%s 默认值"
 L["%s%s|r %s(%s)|r%s  \226\128\148  %s%d|r in progress  %s%d|r banked  %s%d|r done  %s%d|r left"] = "%s%s|r %s(%s)|r%s  —  进行中 %s%d|r  已囤积 %s%d|r  已完成 %s%d|r  剩余 %s%d|r"
+L["%s, or %s."] = "%s，或%s。"
 L["/eqs\n/everythingquests\n\n|cff999999Both open this options window.|r\n\n/eqs whatsnew\n\n|cff999999Show what's new in the latest update.|r\n\n/eqs session\n\n|cff999999Show a recap of your current play session.|r"] = "/eqs\n/everythingquests\n\n|cff999999以上两条命令均可打开此设置窗口。|r\n\n/eqs whatsnew\n\n|cff999999查看本次更新的新内容。|r\n\n/eqs session\n\n|cff999999查看当前游戏会话统计。|r"
 L["[Done] %s - completed"] = "[完成] %s - 已完成"
 L["[Done] Fangs for the Memories complete \226\128\148 Corrosive Victory earned."] = "[完成] Fangs for the Memories 已完成 — 已获得 Corrosive Victory。"
