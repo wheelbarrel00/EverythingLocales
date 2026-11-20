@@ -584,6 +584,8 @@ L["How precise the numbers are. Zero is whole numbers, which is enough to find a
 L["Tooltips"] = true
 L["Show quest progress on tooltips"] = true
 L["Adds the quest name and what it still needs to the tooltips you already see in the game. Hovering an item in your bags tells you which quest wants it and how many are still missing. On Classic, hovering an enemy also tells you which quest it counts toward, which the game itself never says there. Only quests already in your log are listed, and nothing is added to a tooltip that has nothing to say."] = true
+L["Show an NPC's quests on its tooltip"] = true
+L["Hovering an NPC lists the quests in your log that you hand in to it, then the quests it offers you, even ones your map's filters hide. Holiday quests are shown only while their world event is running. Up to five are listed."] = true
 L["Nameplate Quest Icons"] = true
 L["Quest icons on nameplates"] = true
 L["Shows the \"!\" + count on objective mobs."] = true
@@ -614,7 +616,7 @@ L["Reset all settings"] = true
 L["Reset every EQ Objective Tracker setting to defaults? The interface will reload."] = true
 L["Reset"] = true
 L["Cancel"] = true
-L["Restores every setting on every tab to its default and reloads the interface. This also resets the Options Window Scale and After an update, which every character shares, and clears this character's collapsed sections and pinned entries."] = true
+L["Restores every setting on every tab to its default and reloads the interface. This also resets the Options Window Scale and After an update, which every character shares, and clears this character's collapsed sections, folded quests and pinned entries."] = true
 L["Reset position and size"] = true
 L["Returns the tracker to its default position and size."] = true
 L["Use Blizzard's quest tracker"] = true
@@ -717,6 +719,8 @@ L["Simplify Mode"] = true
 L["Show only the first incomplete objective per quest."] = true
 L["Hide finished objectives"] = true
 L["Hides objectives you have already finished and keeps every one still left to do. A quest with all of them finished keeps its last one. Simplify Mode shows only the first one left, so this box is dimmed while Simplify Mode is on."] = true
+L["Auto minimize finished quests"] = true
+L["Folds every finished quest to its title and (Complete). Open one with its + or the right-click menu and it stays open. A quest you can hand in by clicking it stays open, so its line saying so still shows."] = true
 L["Simplify tracked achievements"] = true
 L["Show only incomplete criteria for tracked achievements."] = true
 L["Sort Order"] = true
@@ -760,6 +764,8 @@ L["Show quest ID"] = true
 L["Useful for bug reports."] = true
 L["Show usable quest item buttons"] = true
 L["Puts a button on the tracker row of any quest that carries a usable item, so you can use it without opening your bags."] = true
+L["Show a +/- on each quest"] = true
+L["Puts a - at the end of each quest's title line. Click it to fold the quest to its title, and click the + to open it again. A folded quest always shows its +. Shift-click a zone or section header to fold or open every quest under it."] = true
 L["Show NEW tag on recently accepted quests"] = true
 L["For about an hour after accepting."] = true
 L["Headers and Buttons"] = true
@@ -1206,6 +1212,7 @@ L["Click the icon to focus this quest, or again to clear it."] = true
 L["Click the title to open the quest log."] = true
 
 -- EQOT: UI/Row.lua
+L["Complete"] = true
 L["Find Group"] = true
 L["Open the Premade Group Finder for this quest."] = true
 
@@ -1225,6 +1232,8 @@ L["Open in Map & Quest Log"] = true
 L["Pop Out Quest Details"] = true
 L["Search on Wowhead"] = true
 L["Abandon Quest"] = true
+L["Minimize Quest"] = true
+L["Maximize Quest"] = true
 
 -- EQOT: UI/Scenario.lua
 L["Final Stage"] = true
