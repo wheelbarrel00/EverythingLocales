@@ -107,6 +107,7 @@ L["he can appear at random in any Tier 8 or higher delve, and can also be summon
 L["He returns and uses everything above in random order, the four loa included. Watch for overlaps: %s with %s means taking the knockback and running straight to the sigil."] = "他會回歸，並以隨機順序使用以上所有技能，包括四位羅亞。注意技能重疊：%s與%s同時出現時，要吃下擊退後直接跑向印記。"
 L["Header Bar"] = "標題條帶"
 L["Header Bar 1 is a horizontal gradient (bright on the left, dark on the right). Header Bar 2 is a vertical gradient (bright at the top, dark at the bottom). Bar Color, Bar Height, and Soft edges all apply to whichever style you pick."] = "標題條1：水平漸變（左亮右暗）；標題條2：垂直漸變（上亮下暗）。條帶顏色、高度、柔化邊緣全部生效。"
+L["Hides the cogwheel, the sort and filter buttons and any buttons other addons add to the tracker until you point at the bar they sit on, at the top or the bottom of the tracker. Off by default."] = "隱藏齒輪、排序和過濾按鈕，以及其他插件添加到追蹤框上的任何按鈕，直到滑鼠懸停在追蹤框頂部或底部它們所在的按鈕欄上。預設關閉。"
 L["Home"] = "主頁"
 L["How a cooldown's time-left maps to its spot on the lane. Linear spaces time evenly; Timeline and Logarithmic compress long timers so near-ready cooldowns spread out; Split places icons using your own time-to-position points below."] = "冷卻的剩餘時間如何對應到軌道上的位置。【線性】依時間平均分布；【時間軸】與【對數】會壓縮長計時，讓接近就緒的冷卻拉開距離；【分段】則依你在下方自訂的時間-位置節點放置圖示。"
 L["How Cooldown Master tells you about a new version: a Popup window, a quiet clickable Chat link in your chat, or Off. Reopen the notes any time with /cm whatsnew."] = "Cooldown Master 通知新版本的方式：【彈出視窗】、在聊天視窗中安靜顯示的【聊天連結】，或【關閉】。隨時輸入 /cm whatsnew 可重新開啟更新說明。"
