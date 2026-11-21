@@ -2311,7 +2311,7 @@ L["Which sound plays when you accept a quest. World quests and bonus objectives 
 L["Which sound plays when you finish one of a quest's objectives."] = "完成任务的某个目标时播放的提示音效。"
 L["Which sound plays when you hand a quest in at the quest giver."] = "向任务NPC提交任务时播放的提示音效。"
 L["Which tab this section sits on. Click to move it to the next tab."] = "该板块所在的标签页。点击移到下一个标签页。"
-L["Which volume slider in the game's sound settings these sounds follow. Master Volume by default."] = "这些音效跟随游戏声音设置中的哪个音量滑块。默认为“主音量”。"
+L["Which volume slider in the game's sound settings these sounds follow. Master Volume by default."] = "选择这些音效跟随游戏声音设置中的哪个音量滑块。默认为“主音量”。"
 L["Which way a Grouped or Offset stack grows from the lane line. Center straddles the line and grows both ways."] = "「分组」或「偏移」堆叠从轨道线向哪个方向延伸。「居中」跨越轨道线并向两侧延伸。"
 L["While a spell or item cannot be used right now (not enough resources, wrong stance, out of range), tint its icon with the Unusable Tint Color below."] = "当法术或物品当前无法使用时（资源不足、姿态不符、超出距离），用下方的「不可用染色」为其图标着色。"
 L["While a spell or item cannot be used right now, draw its icon in greyscale. Can be combined with Tint Unusable Icons."] = "当法术或物品当前无法使用时，以灰度绘制其图标。可与「不可用图标染色」同时使用。"
