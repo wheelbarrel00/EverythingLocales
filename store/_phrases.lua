@@ -313,9 +313,9 @@ L["Comes later in the chain"] = true
 
 -- EQ: Modules/ChainGuide/QuestMapButton.lua
 L["|cffEBB706EQ Chain Guide:|r quest |cffffffff%d|r%s isn't in any chain I know about."] = true
-L["Chain"] = true
 L["Find this quest in EQ's Chain Guide"] = true
 L["Falls back to a Wowhead link in chat if EQ doesn't have a chain for this quest yet."] = true
+L["Chain"] = true
 
 -- EQ: Modules/History/Frame.lua
 L["(before tracking)"] = true
@@ -578,7 +578,7 @@ L[" for the many hours spent translating Everything Quests into Traditional Chin
 L[" for the many hours spent translating Everything Quests into German."] = true
 L["Better questing across the whole game: markers for your quests on the world map, world quests with reward and faction filters, a guide to Midnight's quest chains, a history of every quest you turn in, and quest progress on nameplates."] = true
 L["Better questing for WoW Forever: objective markers on the world map and minimap, every quest giver with something for you, a guide to the quest chains, a history of every quest you turn in, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = true
-L["Better questing for Classic: objective markers on the world map and minimap, every quest giver with something for you, a history of every quest you turn in, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = true
+L["Better questing for Classic: objective markers on the world map and minimap, every quest giver with something for you, a guide to the quest chains, a history of every quest you turn in, a browser for almost any quest you have not picked up yet, and quest progress on tooltips and nameplates."] = true
 L["Its objective tracker is EQ Objective Tracker, a separate addon that installs with it."] = true
 L["by Wheelbarrel00"] = true
 L["for WoW %s"] = true
