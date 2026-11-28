@@ -69,6 +69,7 @@ L["Clear all nine chambers in one run on Tier 8 or higher. His chamber in the fa
 L["Clear all nine chambers in one run on Tier 8 or higher. His chamber in the far north of Akil'zon's Roost then stays open, so later runs need only the Chamber of Rites, Halazzi's Lair or The Cave Towers, and Akil'zon's Roost."] = "在8层或更高层级的一次挑战中通关全部九个房间。之后他位于埃基尔松的栖台最北端的房间会保持开启，以后的挑战只需经过祭仪之厅、哈尔拉兹的巢窟或洞窟塔群，以及埃基尔松的栖台。"
 L["Clear History"] = "清空历史"
 L["Click the icon to focus, click the title to open the quest log."] = "点击图标开启超级追踪，点击标题打开任务日志。"
+L["Click to open the map here and set a waypoint"] = "点击在此打开地图并设置路径点"
 L["Collapse the category and chain list so the graph fills the whole window. Click again to bring it back."] = "收起分类与任务链列表，让时间线图表占满窗口，再次点击恢复。"
 L["Collectibles for defeating Azta'rec this season (item icons appear once their IDs are confirmed):"] = "本赛季击败 Azta'rec 可获得的收藏品（物品 ID 确认后会显示图标）："
 L["Color and opacity of the draggable block. Only used while Solid color thumb is on."] = "拖动滑块块颜色与透明度，仅在纯色滑块开启时生效。"

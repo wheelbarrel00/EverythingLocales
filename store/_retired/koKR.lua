@@ -73,6 +73,7 @@ L["Clear all nine chambers in one run on Tier 8 or higher. His chamber in the fa
 L["Clear all nine chambers in one run on Tier 8 or higher. His chamber in the far north of Akil'zon's Roost then stays open, so later runs need only the Chamber of Rites, Halazzi's Lair or The Cave Towers, and Akil'zon's Roost."] = "8단계 이상에서 한 번의 진행으로 아홉 개의 방을 모두 완료하세요. 그러면 아킬존의 둥지 최북단에 있는 그의 방이 계속 열려 있어, 이후 진행에서는 의식의 방, 할라지의 소굴 또는 동굴 탑, 그리고 아킬존의 둥지만 거치면 됩니다."
 L["Clear History"] = "기록 지우기"
 L["Click the icon to focus, click the title to open the quest log."] = "아이콘 클릭은 집중 추적, 제목 클릭은 퀘스트 일지를 엽니다."
+L["Click to open the map here and set a waypoint"] = "클릭하면 이 위치로 지도를 열고 경로를 설정합니다"
 L["Collapse the category and chain list so the graph fills the whole window. Click again to bring it back."] = "분류 및 연계 목록을 접어 그래프가 창 전체를 채우게 합니다. 다시 클릭하면 되돌립니다."
 L["Collectibles for defeating Azta'rec this season (item icons appear once their IDs are confirmed):"] = "이번 시즌 아즈타레크 처치로 얻는 수집품입니다 (아이템 ID가 확인되면 아이콘이 표시됩니다):"
 L["Color and opacity of the draggable block. Only used while Solid color thumb is on."] = "드래그 블록의 색상과 불투명도입니다. 단색 손잡이가 켜져 있을 때만 사용됩니다."

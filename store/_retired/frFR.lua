@@ -69,6 +69,7 @@ L["Clear all nine chambers in one run on Tier 8 or higher. His chamber in the fa
 L["Clear all nine chambers in one run on Tier 8 or higher. His chamber in the far north of Akil'zon's Roost then stays open, so later runs need only the Chamber of Rites, Halazzi's Lair or The Cave Towers, and Akil'zon's Roost."] = "Terminez les neuf salles en un seul parcours au palier 8 ou plus. Sa salle, tout au nord du Perchoir d’Akil’zon, reste ensuite ouverte, et les parcours suivants ne demandent que la Salle rituelle, le Repaire d’Halazzi ou La grotte aux Tours, et le Perchoir d’Akil’zon."
 L["Clear History"] = "Effacer l'historique"
 L["Click the icon to focus, click the title to open the quest log."] = "Icône pour suivre, nom pour le journal de quête."
+L["Click to open the map here and set a waypoint"] = "Cliquez pour ouvrir la carte ici et placer un point de passage"
 L["Collapse the category and chain list so the graph fills the whole window. Click again to bring it back."] = "Réduit la liste des catégories et des suites pour que le graphique remplisse toute la fenêtre. Cliquez à nouveau pour la faire réapparaître."
 L["Collectibles for defeating Azta'rec this season (item icons appear once their IDs are confirmed):"] = "Objets de collection pour avoir vaincu Azta'rec cette saison (les icônes apparaîtront une fois leurs identifiants confirmés):"
 L["Color and opacity of the draggable block. Only used while Solid color thumb is on."] = "Couleur et opacité du bloc déplaçable. Utilisées uniquement lorsque Curseur de couleur unie est activé."

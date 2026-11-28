@@ -88,6 +88,7 @@ L["Open Tracker Settings"] = true
 L["The tracker is now EQ Objective Tracker, a separate addon that Everything Quests installs for you. Its own options panel holds everything: position and size, fonts, colors, sections, filters, sorting and visibility. You can also open it by typing /eqot."] = true
 L["The tracker is now EQ Objective Tracker, a separate addon that Everything Quests installs for you. Its own options panel holds everything: position and size, fonts, colors, sections, filters, sorting and visibility. You can also open it by typing /eqot, or with the cogwheel at the top right of the tracker itself."] = true
 L["Points your TomTom arrow at the focused quest each time it changes, including a quest the game focuses as you accept it. Untick to leave that to the game's own arrow: quests are still focused, and Get Directions, the Quest Browser, the Chain Guide and a tracked chain still set a TomTom arrow."] = true
+L["Points your TomTom arrow at the quest or world quest you follow each time that changes, including a quest the game follows as you accept it, and moves it on as you finish objectives. Off by default, as the game's own arrow already shows the quest you follow. Get Directions, the Chain Guide and a tracked chain set a TomTom arrow either way."] = true
 L["Requires TomTom addon."] = true
 L["TomTom is not loaded, but another addon is standing in for it, so these arrows go to that addon instead. It may show them in its own way, such as a journey to follow."] = true
 L["TomTom arrow for the focused quest"] = true
@@ -470,7 +471,7 @@ L["An item that starts it drops here"] = true
 L["All quests"] = true
 L["Available to you"] = true
 L["Hidden by you"] = true
-L["Click to open the map here and set a waypoint"] = true
+L["Click to set a TomTom waypoint here, or to open the map here without TomTom"] = true
 L["Click to open this quest"] = true
 L["The reputation this quest gives, as the quest data lists it and before bonuses such as Diplomacy. Other related factions can gain or lose some too."] = true
 L["Worked out from the gain, as the Aldor and the Scryers each lose a tenth more than the other gains."] = true
@@ -707,6 +708,8 @@ L["Switch back to the EQ Objective Tracker window? The interface will reload."] 
 L["Yes"] = true
 L["The interface did not reload. Type /reload to finish."] = true
 L["Turns off the EQ Objective Tracker window and brings back the game's own quest tracker. EQ Objective Tracker's other features, such as quest sounds, keep working. The interface reloads to switch."] = true
+L["Use Blizzard's tracker while the Gamepad UI is on"] = true
+L["Uses the game's own quest tracker, which works with a controller, whenever the Gamepad UI is on, and this window the rest of the time. The interface reloads to switch. Built from Blizzard's code and not yet tested with a controller, so please report anything that goes wrong."] = true
 L["Lock tracker"] = true
 L["Disable drag-to-move and resize."] = true
 L["Hide tracker in combat"] = true
@@ -1263,6 +1266,11 @@ L["Search settings"] = true
 L["No settings match"] = true
 L["Search results"] = true
 
+-- EQOT: Core/Bindings.lua
+L["Follow next quest"] = true
+L["Follow previous quest"] = true
+L["Use the followed quest's item"] = true
+
 -- EQOT: Core/Init.lua
 L["Copy the link below (it's pre-selected \226\128\148 just press Ctrl+C):"] = true
 L["Join the community for help, feedback, and updates.\nCopy the invite below (it's pre-selected \226\128\148 just press Ctrl+C):"] = true
@@ -1331,6 +1339,7 @@ L["tracker locked."] = true
 L["tracker unlocked."] = true
 L["position and size reset."] = true
 L["Blizzard's quest tracker is in use - see /eqot, General."] = true
+L["No quests to follow."] = true
 L["no Everything Quests configuration found to import."] = true
 L["Import from Everything Quests"] = true
 L["Reset this profile to defaults and replace it with your Everything Quests tracker settings?\n\nThis cannot be undone. Make a new profile first if you want to keep the current one."] = true
@@ -1338,6 +1347,14 @@ L["commands:"] = true
 
 -- EQOT: UI/Dialog.lua
 L["OK"] = true
+
+-- EQOT: UI/GamepadPrompt.lua
+L["The Gamepad UI was switched, so the quest tracker should switch too. Reload the interface now?"] = true
+L["Reload"] = true
+L["Not now"] = true
+L["You are using the Gamepad UI. The game's own quest tracker works with a controller, and this one does not yet."] = true
+L["Use the game's quest tracker while the Gamepad UI is on? The interface reloads. You can change this later on the General tab."] = true
+L["No"] = true
 
 -- EQOT: UI/QuestieCoexist.lua
 L["Questie's own quest tracker is on screen alongside this one.\n\nHide Questie's tracker? You can change this later on the General tab. This only hides the frame, and leaves Questie's settings and tracked quests alone."] = true

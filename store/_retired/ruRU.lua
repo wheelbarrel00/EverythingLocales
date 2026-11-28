@@ -69,6 +69,7 @@ L["Clear all nine chambers in one run on Tier 8 or higher. His chamber in the fa
 L["Clear all nine chambers in one run on Tier 8 or higher. His chamber in the far north of Akil'zon's Roost then stays open, so later runs need only the Chamber of Rites, Halazzi's Lair or The Cave Towers, and Akil'zon's Roost."] = "Пройдите все девять залов за одно прохождение на уровне 8 или выше. Его зал на крайнем севере Гнездовья Акил'зон после этого остается открытым, так что в следующих прохождениях нужны только Зал обрядов, Логово Халаззи или Пещерные башни и Гнездовье Акил'зон."
 L["Clear History"] = "Очистить историю"
 L["Click the icon to focus, click the title to open the quest log."] = "Нажмите на иконку, чтобы выбрать, на название - открыть журнал заданий."
+L["Click to open the map here and set a waypoint"] = "Щёлкните, чтобы открыть здесь карту и поставить точку маршрута"
 L["Collapse the category and chain list so the graph fills the whole window. Click again to bring it back."] = "Сворачивает список категорий и цепочек, чтобы схема заняла всё окно. Нажмите ещё раз, чтобы вернуть её."
 L["Collectibles for defeating Azta'rec this season (item icons appear once their IDs are confirmed):"] = "Коллекционные предметы за победу над Azta'rec в этом сезоне (значки появятся, как только их идентификаторы будут подтверждены):"
 L["Color and opacity of the draggable block. Only used while Solid color thumb is on."] = "Цвет и непрозрачность перетаскиваемого блока. Используются, только когда включён «Одноцветный бегунок»."
